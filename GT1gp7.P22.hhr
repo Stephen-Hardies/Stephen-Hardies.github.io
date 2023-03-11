@@ -1,0 +1,45 @@
+Query         gp7 26016 to 26954 + in GT1
+Match_columns 319
+No_of_seqs    120 out of 554
+Neff          7.9 
+Searched_HMMs 1
+Date          Tue Jul  5 17:32:19 2022
+Command       hhsearch -i GT1gp7.a3.hhm -d /home/hardies/families/P22/scaffold/scaffold.a3.hhm -o GT1gp7.P22.hhr 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 gi|51236727|ref|YP_063736.1| N  95.4 1.9E-06 1.9E-06   49.0   8.8  147  158-311   123-290 (303)
+  2 gi|51236727|ref|YP_063736.1| N   3.3   0.072   0.072   18.8  14.5   79  162-246   120-203 (303)
+
+No 1  
+>gi|51236727|ref|YP_063736.1| Nacc:NC_002371 scaffolding protein [Enterobacteria phage P22 virus]
+Probab=95.40  E-value=1.9e-06  Score=48.98  Aligned_cols=147  Identities=10%  Similarity=0.052  Sum_probs=80.2
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHhCCCCCChhhHH-------------
+Q PP_00054        152 DPNKYTAMKDQHEAAMGQVQKLIELGEAPKEIGAGMSEADK-KQQLQEANQRLIEMFPEAAEGEGRK-------------  217 (312)
+Q Consensus       158 DP~~y~~~~~~~~~~~~~~q~~~~~~~~~~~~~~~~~~~~~-~~~~~~e~~~L~~~iPe~~d~~~~~-------------  223 (319)
+                      +...|-.....|...+....+-....++...+.+...++.+ ....+.-.....-.||.|-+....-             
+T Consensus       123 ~~~afe~al~~w~~kk~~a~~~~~~~q~~~~~~~~~~~q~~~~~a~~~~~~A~kl~v~Df~eae~~~~~~~p~~q~~~~l  202 (303)
+T gi|51236727|re  123 ALAAFNAANTEWLMKAQDARSNAVAEQGRKTQEFTQQSAQYVEAARKHYDAAEKLNIPDYQEKEDAFMQLVPPAVGADIM  202 (303)
+T ss_pred             HHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCChHHHHHHHHhhCCCCCcceEe
+Confidence            45588888888888777776655444444444444433333 2112222333334577666542211             
+
+
+Q ss_pred             ---HHHHHHHHHHHHcCCCHHHHhccc--chHHHHHHHHHHHHHHhhhcCcc--ccccCCCCCCCCCCCCCCCCCchHHH
+Q PP_00054        218 ---QFFGNVQAVANEIGFSDDDLGSVS--DPRIFALAHWAKKGMDAEKAKAV--AKAKVAKAPPATPR-KPGQGARKPNG  289 (312)
+Q Consensus       224 ---~~~~~l~~~~~~~G~s~eel~~~~--D~r~~~ll~~A~~~~~~~~~~~~--~~kk~~~~p~~~~~g~~~~~~~~~~~  296 (319)
+                         .....++-|  .+|=+++.+..|.  ||+-+     |+..-+|-.+..-  +.|.+..+|+..+|+++.........
+T Consensus       203 ~~~~Ek~all~Y--~LGkNPek~~~L~~~~P~~a-----a~~l~rLe~rltl~pk~k~~s~aP~~~~p~sG~~~~~~~~~  275 (303)
+T gi|51236727|re  203 RLFPEKSAALMY--HLGANPEKARQLLAMDGQSA-----LIELTRLSERLTLKPRGKQISSAPPADQPITGDVSAANKDA  275 (303)
+T ss_pred             ecCCcchHHHHH--HhcCCHHHHHHHhcCCHHHH-----HHHHHHHHhhhcCCCCCCCCCCCCCCCCCCCCCCCCCchhH
+Confidence               111222222  3666776655444  55443     3334444444442  23445577777788777777776777
+
+
+Q ss_pred             HHHHHHHHhhcCCHH
+Q PP_00054        290 NAEAMRKLSRSGSLK  304 (312)
+Q Consensus       297 ~~~a~~rl~~tGs~~  311 (319)
+                      ..+++..-.-+|.+.
+T Consensus       276 ~~~~~~~~~~~~~~~  290 (303)
+T gi|51236727|re  276 IRKQMDAAASKGDVE  290 (303)
+T ss_pred             HHHHHHHHhhcccHH
+Confidence            778887777777664
+
