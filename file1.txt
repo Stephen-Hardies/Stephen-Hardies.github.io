@@ -1,1 +1,0 @@
-This is a test text file for exploring the mechanism of github file placement and indexing.
