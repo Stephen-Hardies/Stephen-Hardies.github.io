@@ -1,1 +1,1 @@
-../terminase/lg-ter.summary.txt
+The lg-ter archive has an alignment and HMM models representative of all tailed phage large terminases and packaging ATPases.  It includes both the N-terminal P-loop ATPase domain, and the C-terminal RuvC domain. It overlaps numerous Pfam families.  The subset alignment for the figure in the supported manuscript is also included.
