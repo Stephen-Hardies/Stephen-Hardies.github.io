@@ -1,0 +1,1 @@
+This archive has an alignment and HMM models for sequences matching to phiGT1 gp6, a small frame appearing upstream of the scaffold gene and conserved as far away as LUZ24 and phiEco32, related by a 1.5 Gya common ancestor.  There is no Pfam model for this family.  The nexus file for creation of the tree in the supported manuscript is included.
