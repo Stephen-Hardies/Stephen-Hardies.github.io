@@ -1,0 +1,1 @@
+This archive has an alignment and HMM models for sequences matching to phiGT1gp10, a small frame appearing downstream of the major capsid protein gene and conserved as far away Sinorhizobium prohages, related by a ~0.75 Gya common ancestor.  There is no Pfam model for this family.  The the nexus file for creation of the tree in the supported manuscript is included.
