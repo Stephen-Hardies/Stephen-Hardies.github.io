@@ -1,0 +1,3 @@
+Summary
+
+Although phiGT1 does not have an RNA polymerase, a supplemental figure was provided with the supported manuscript showing that the T7 RNA polymerase tree including mitochondrial RNA polymerase and calibrated in time according to the specifications in the manuscript produces a time for the mitochondrial endosymbiosis consistent with current estimates.  The archive includes the nexus file containing the alignment, and some technical documentation.
