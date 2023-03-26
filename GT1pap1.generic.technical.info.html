@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Technical information related to phiGT1 protein families</title>
+  </head>
+  <body>
+    <h1>Technical information related to phiGT1 protein families</h1>
+    <p><br>
+    </p>
+    <h2>Alignment by UCSC Sequence Alignment and Modeling System (SAM)</h2>
+    <p><b>Program source:</b>
+      https://users.soe.ucsc.edu/~karplus/projects-compbio-html/sam2src/<br>
+      <b>Citations:</b><br>
+    </p>
+    <p>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    </p>
+    <p>
+      <title></title>
+      <meta name="generator" content="LibreOffice 5.1.6.2 (Linux)">
+      <style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2 }
+		p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }
+		a:link { so-language: zxx }
+	</style>
+    </p>
+    <ul>
+      <li>Hughey,
+        R., Krogh, A., 1996. Hidden Markov models for sequence analysis:
+        extension and analysis of the basic method. Comput. Appl.
+        Biosci. 12,
+        95–107. DOI: 10.1093/bioinformatics/12.2.95.<br>
+        <meta http-equiv="content-type" content="text/html;
+          charset=UTF-8">
+      </li>
+      <li>Karplus,
+        K., Barrett, C., Hughey, R., 1998. Hidden Markov models for
+        detecting
+        remote protein homologies. Bioinformatics 14, 846–856. DOI:
+        10.1093/bioinformatics/14.10.846.</li>
+    </ul>
+    <p>The program system is still available, but hasn't been maintained
+      and may be difficult to install.<br>
+    </p>
+    <p><b>General use:&nbsp;</b> <br>
+      target2k -seed {fasta file, or prior .a2m file} -homologs {fasta
+      file of proposed homologs} -full_seq_align 1 -out {initial
+      alignment name} &gt;log 2&gt;&amp;1<br>
+      target2k -seed {initial alignment.a2m} -tuneup -full_seq_align 1
+      -out {tuned alignment name} &gt;log 2&gt;&amp;1<br>
+    </p>
+    <p>Generally I retain alignments and may add additional sequences
+      from homolog sets from a variety of sources:<br>
+    </p>
+    <ul>
+      <li>An updated psiblast set</li>
+      <li>Sequences from a proposed matching family from a protein
+        family database</li>
+      <li>Sequences from a psiblast set of a proposed homolog selected
+        by any other logic (synteny, analogous function, etc.)<br>
+      </li>
+    </ul>
+    <p><b>Characteristics of the output:<br>
+      </b></p>
+    <p>SAM iteratively constructs an HMM of the input alignment (or
+      initially of an individual sequence) and screens the homologs set
+      for statistical significance.&nbsp; Sequences accepted are added
+      to the alignment and the whole of the alignment is reoptimized for
+      use in the next iteration.&nbsp; The alignment algorithm is not
+      progressive like it is with clustal, but rather uses the
+      Baum-Welch algorithm.&nbsp; That confers a capability to improve
+      its ascertainment of where gaps should be excluded as more
+      sequences are added with the result that it more effectively
+      sweeps gaps out of regions with conserved secondary
+      structure.&nbsp; Within the aligned sequences, segments not
+      meeting a threshold for significant alignment across at least half
+      the entries are demoted to "insert" status.&nbsp; These are marked
+      in the .a2m file in lower case, and will not be passed on to the
+      tree making algorithm.&nbsp; However, they may be rescued by the
+      addition of nw sequences in a later step.&nbsp; There is typcally
+      a marked increase in aligned residues during the tuneup operation.<br>
+    </p>
+    <p><b>Post processing:</b><br>
+      After tuneup the product .a2m file has two copies of each
+      sequence.<br>
+      Either:<br>
+    </p>
+    <ul>
+      <li>Use an editor to remove the second half of the file.</li>
+      <li>Run uniqueseq {processed alignment name} -alignfile {tuned
+        alignment name} to remove all but one of any sequences identical
+        in all aligned residues</li>
+      <li>Run uniqueseq {thinned alignment name} -alignfile {tuned
+        alignment name} -percent_id {fraction} to thin to only one
+        sequence per group defined by having "fraction" identity.</li>
+    </ul>
+    <b>Output conversion to nexus format<br>
+      <br>
+    </b>The SAM utility prettyalign converts the .a2m file to a
+    clustal-like format.&nbsp; All it needs to be a legal .aln file is
+    to change the header.<br>
+    <br>
+    prettyalign {.a2m file} -m0 -l100 &gt;{prettyalign file}&nbsp;&nbsp;
+    directs the deletion of the "insert" columns.<br>
+    <br>
+    From there there are a variety of alignment converters to get to
+    nexus format.<br>
+    <br>
+    <h2>Creation and use of HMM models</h2>
+    <p><b>In SAM</b>&nbsp;&nbsp; w0.5 {file.a2m} {file.mod}&nbsp;&nbsp;
+      creates a SAM formatted HMM</p>
+    <p>hmmscore {result name} -i {file.mod} -db {multifasta file or
+      another .a2m file} -sw 0&nbsp; scores a sequence collection
+      against the SAM HMM<br>
+    </p>
+    <p><b>To convert to a Hmmer3 HMM<br>
+      </b></p>
+    <p>hmmconvert(from SAM package) {modelname.asc} -model_file
+      {file.mod}&nbsp;&nbsp; converts the SAM binary file to an ascii
+      format<br>
+    </p>
+    <p>S3H2convert.pl&nbsp; is:<br>
+      #Program obtained from
+      http://www.mrc-lmb.cam.ac.uk/genomes/julian/convert/convert.html<br>
+      #Authors: Martin Madera, Julian Gough<br>
+    </p>
+    <p>S3H2convert.pl {SAM ascii model}&nbsp; produces a hmmer2
+      formatted file with extension .con.hmm<br>
+    </p>
+    <p>hmmconvert(from hmmer package)&nbsp; {hmmer2 formated HMM}
+      &gt;{hmmer3 formatted HMM}<br>
+    </p>
+    <p>The hmmer3 HMM can be used with hmmeralign in the hmmer package
+      or clustal omega to align an arbitrary set of homologs to be
+      consistent with the alignment from which the original HMM was
+      made.<br>
+    </p>
+    <p><b>To convert to a HHpred-style HMM<br>
+      </b></p>
+    <p>addss (from the hhsuite package) {.a2m file} {.a3m file}
+      -a3m&nbsp;&nbsp; Adds secondary structure to the alignment with
+      Psipred, but using the .a2m alignment itself rather than doing a
+      psiblast search.<br>
+    </p>
+    <p>hhmake -i {.a3m file} -o {hhpred model.hhm}<br>
+    </p>
+    <p>hhsearch -cal -i {hhpred model.hhm}&nbsp; -d {scope database from
+      hhpred libraries} -o {hpred.cal.hhr}&nbsp;&nbsp; calibrates the
+      model<br>
+      hhsearch -i {one hhpred model} -d {another hhpred model} -o
+      {model1x2.hhr}&nbsp;&nbsp;&nbsp; Gives a detailed report of how
+      well two models correspond.<br>
+    </p>
+    <p><b>Tree checking</b><br>
+    </p>
+    <p>When alignments are expanded to the limits of similarity
+      detection, there is a risk that a cluster of nonhomologous
+      sequences will be included, or that portions of the alignment are
+      of insufficient accuracy to support quality tree production.<br>
+    </p>
+    <p>In these cases, I typically make an NJ tree for the full
+      alignment, and select representative of each major clade for a
+      MrBayes tree.&nbsp; Then for the most distantly linked clades, I
+      extract the sequences for each clade, make a new alignment, and
+      then do the HMM to HMM comparison to discover what part of the
+      sequence if any have good posterior residue alignment
+      scores.&nbsp;&nbsp; Based on control experiments where there is
+      structural homology determined as an arbiter of "correct"
+      alignment, segments with mostly 7, 8, or 9 scores tend to
+      correspond to regions of structural homology.<br>
+    </p>
+    <p class="western" style="margin-bottom: 0in; line-height: 100%">
+      <title></title>
+      <meta name="generator" content="LibreOffice 5.1.6.2 (Linux)">
+      <style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2 }
+		p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }
+		a:link { so-language: zxx }
+	</style>
+    </p>
+    <p>
+    </p>
+  </body>
+</html>
