@@ -1,1 +1,1435 @@
-/home/hardies/Documents/phiCA1/draft1/CA1.8-10-23a.Submission2722296.txt
+LOCUS       ACA1                   36825 bp    DNA     linear   PHG 11-JUL-2023
+DEFINITION  Pseudoalteromonas phage ACA1.
+ACCESSION   ACA1
+VERSION
+KEYWORDS    .
+SOURCE      Peduoviridae
+  ORGANISM  Peduoviridae
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
+            Caudoviricetes.
+REFERENCE   1  (bases 1 to 36825)
+  AUTHORS   Hwang,C.Y., Cho,B.C., Kang,J.K., Park,J. and Hardies,S.C.
+  TITLE     Genomic Analysis of Two Cold-Active Pseudoalteromonas Phages
+            Isolated from the Continental Shelf in the Arctic Ocean
+  JOURNAL   unpublished
+REFERENCE   2  (bases 1 to 36825)
+  AUTHORS   Hwang,C.Y., Cho,B.C., Kang,J.K., Park,J. and Hardies,S.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2023) Department of Biochemistry and Structural
+            Biology, UT Health San Antonio, 11123 Oak rise, San Antonio, TX
+            78249, USA
+COMMENT     Bankit Comment: ALT EMAIL:hardies.stephen@gmail.com
+            Bankit Comment: TOTAL # OF SEQS:1
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics Workbench v. 8.51
+            Assembly Name         :: ACA1
+            Coverage              :: 2,276
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..36825
+                     /organism="Peduoviridae"
+                     /mol_type="genomic DNA"
+                     /isolation_source="Artic sediment, 74.30N, 167.65W"
+                     /host="Pseudoalteromonas elyakovii"
+                     /db_xref="taxon:2946167"
+     gene            277..786
+                     /locus_tag="PHIACA1_10"
+     CDS             277..786
+                     /locus_tag="PHIACA1_10"
+                     /note="gp1; HHpred match to 3DTE_A IrrE, a metalloprotease
+                     family typically used to inactivate transcription factors;
+                     P2-like phage 186 has a member of this family that
+                     transduces the SOS signal to inactivate its immunity
+                     receptor (PMID 9488703); Phage ACA1 has a second gene
+                     (gp4) likely to transduce the SOS signal; The relative
+                     roles of gp1 and gp4 are uncertain"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="antirepressor"
+                     /translation="MELPAVKNILDANWDWRLPVNIEDIATKLDIKVASINCFNPEHE
+                     SFRGLSGLAEINNQGQRVIYCNGTESLNRQRFTLAHELGHHALGHVEPGKQMQRIDMP
+                     AAFNSNSDDWEEREANNFAAQILMPLDAIKTMLFAKGISNIKELARIFQVSEAAMYYR
+                     LKNLGYLTL*"
+     gene            843..1520
+                     /locus_tag="PHIACA1_20"
+     CDS             843..1520
+                     /locus_tag="PHIACA1_20"
+                     /note="gp2; A few homologs are found in bacterial genomes,
+                     but not concentrated in Pseudoalteromonas"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSNRNEDENLDLSDGVVSSNNVELSRDHDVTTLKRESTILGFKI
+                     WEERFYLGFKALGFIVAMFLAVCFLKTGLELSEKSLTHILEHRTDTTIEKNKKPLKDS
+                     SIAAVSQNDNSAIQKEKKSLKDKAALDIEKKSKKNNVELKAEKATKENAKQPTQSMEN
+                     KMLYSGSIITLVAFILGTGLTLLLTIVKFSFHNRQQNEDNPNVALAGPASELFMALAN
+                     YIKSKIK*"
+     gene            1620..1934
+                     /locus_tag="PHIACA1_30"
+     CDS             1620..1934
+                     /locus_tag="PHIACA1_30"
+                     /note="gp3; Homologs found in diverse phages similarly
+                     located in presumptive early expression modules, e.g.
+                     phiOH2, and phiCD24-1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MSIKTDMSGLNKLTKNLEELGKQDSIAVGDVMTDEFISRYSSYS
+                     SLDELVDASGFVVNTPEDFKAIPDEEWEAFIVSNTNFSSWKEMQLKSHEEFLHKKIMK
+                     GL*"
+     gene            complement(1966..2331)
+                     /locus_tag="PHIACA1_40"
+     CDS             complement(1966..2331)
+                     /locus_tag="PHIACA1_40"
+                     /note="gp4; homolog of phage C5a gp4 (YP_009787973);
+                     HHpred match to pdb:1JHF_A LexA SOS repressor but without
+                     a DNA binding domain; and to pdb:1UMU_A, an SOS sensing
+                     protease that cleaves another polypeptide"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SOS sensing protease"
+                     /translation="MIISNVDVGPGIKELENNLDNSLITDATFIGRASGNSMEGVGIF
+                     SGDLLIIDRAATVKHGDVIVAALNGLFVCKIADLKNNQLLSANPDHPAVKITEHDEYN
+                     VEGVVGQSIRLHRTSNLLG*"
+     gene            2691..2810
+                     /locus_tag="PHIACA1_50"
+     CDS             2691..2810
+                     /locus_tag="PHIACA1_50"
+                     /note="gp5; homolog of phage C5a gp5 (YP_009787974);
+                     HHpred weakly detects TIGR01847, the cleavage and export
+                     signal for bacteriocins. This is a 39 residue polypeptide
+                     that may be cleaved and exported as a bacteriocin or a
+                     quorum sensing peptide"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MNKQHVNGKSVLLLAQVSGGEDTQDNGGGGGGVEPPKLN*"
+     gene            2870..3421
+                     /locus_tag="PHIACA1_60"
+     CDS             2870..3421
+                     /locus_tag="PHIACA1_60"
+                     /note="gp6; homolog of phage C5a gp6 (YP_009787975)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MIDFITATDWTIRALEVLIILYLLVTLNKHRLALFFGGKSNLKS
+                     IDDHTMHSCFIAALTVMVFHFVSSSLAQYIITIEMSKLALRQFFYFTMFSCSMAFVIA
+                     LFFMHNIRGCTFSTTARLCLYLALAQSVVQLIQFIMRGLLDSSMLSPAYSFSVVALNL
+                     LSLGVVAIYPAKKFTGLLTKEGI*"
+     gene            3422..3766
+                     /locus_tag="PHIACA1_70"
+     CDS             3422..3766
+                     /locus_tag="PHIACA1_70"
+                     /note="gp7; homolog of phage C5a gp7 (YP_009787976)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MPLLIVMFICLTMALCITGVAIVRGQNTTGIETILKHKIKHYMP
+                     EGTAAQQDDGGVAYSIVMDLGATIEQPDNWDKIESMNVVHKRATMFRNQALKKPTNIP
+                     PAQERPIFKLVK*"
+     gene            3878..4573
+                     /locus_tag="PHIACA1_80"
+     CDS             3878..4573
+                     /locus_tag="PHIACA1_80"
+                     /note="gp8; homolog of phage C5a gp10 (YP_009787979)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MVKVGTWVLGVLSLISVIMYFDLGDHLSGVICMFAAGFFFPPVL
+                     NKINKTNKEKAESKGKTHKDITQKSAVIFGIVLLAIAAILSGGSNTETNNSTQSTPTE
+                     QTQERKQLKPIDLIYQLKSKVDELDYWFKGPFKESDKLRFYDVKKNYDKQLDVICSDF
+                     DRLVENTGNLNSEYYDEALACSNFELSLVHVIQNLNHGTYAEIPKLRQKLEPAYQNLK
+                     QQVDEEIKRLNNK*"
+     gene            complement(4603..5067)
+                     /locus_tag="PHIACA1_90"
+     CDS             complement(4603..5067)
+                     /locus_tag="PHIACA1_90"
+                     /note="gp9; homolog of phage C5a gp11 immunity repressor
+                     (YP_009787980) including a C-terminal domain not shared
+                     with most other P2-like phages; HHpred match to P5174 HP1
+                     and pdb:2XCJ_B P2 immunity repressors"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2-like Immunity repressor"
+                     /translation="MSNTIGLKIKTIRESLHLSQAKFCELLDIGLSGYKKYEAGISEP
+                     GAGNLEKIANHPQTKMYLMWLFTGETNPAAGQIAPGDLISQQGLLDEEEFEKEFIDTS
+                     IKSLMMFFHLDWFRVNPDKKIDINDCGKLLLKDLKPVIDARASKPANSQKTA*"
+     gene            5229..5516
+                     /locus_tag="PHIACA1_100"
+     CDS             5229..5516
+                     /locus_tag="PHIACA1_100"
+                     /note="gp10; homolog of phage C5a gp12 (YP_009787981);
+                     HHpred match to O22010, Shigella phage Sfv excisionase;
+                     and to other winged helix models including pdb:4LHF_A P2
+                     cox; P2 has one protein, cox, promoting the lytic cycle
+                     and influencing the integrase to effect excision; Phage
+                     ACA1 has two adjacent paralogs, which presumably have
+                     divided these functions"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="excisionsase"
+                     /translation="MDTEKYRKNLQGEVVGPDENFLKRKQVLEMCGISLSHLYYLMNK
+                     GMFPKSHRVSHRSAVWLESDINLWRSMNANHFYAEYGEQIKAQKLGEGAAA*"
+     gene            5513..5767
+                     /locus_tag="PHIACA1_110"
+     CDS             5513..5767
+                     /locus_tag="PHIACA1_110"
+                     /note="gp11; homolog of phage C5a gp13 (YP_009787982);
+                     HHpred matches to PF11112 Pyocin activator protein; O2210
+                     VXIS_BPSF5 Excisionase; P51705 HP1 cox; and pdb:4LHF_A P2
+                     cox"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 cox homolog"
+                     /translation="MNMTFALLAIYNTPAVPLKDICEEYLGLKFKTAEQKAKAAQLPI
+                     PTFKIRDSERAPTMVNVNDLGAYLQARYDAAQKEWLSINN*"
+     gene            5779..6048
+                     /locus_tag="PHIACA1_120"
+     CDS             5779..6048
+                     /locus_tag="PHIACA1_120"
+                     /note="gp12; homolog of phage C5a gp14 (YP_009787983)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MSTYKVFDQNTYNALPNLAAKAEYLLTCKISTKDAVNCKSVEFE
+                     PCLQAFVGELPLPIYCHGNGNQTIQKAVYWLKTQALSKPQQAQGV*"
+     gene            6051..6446
+                     /locus_tag="PHIACA1_130"
+     CDS             6051..6446
+                     /locus_tag="PHIACA1_130"
+                     /note="gp13; homolog of C5a gp15 (YP_009787984); HHpred
+                     matches to P51707 Haemophilus phage HP1, and P07696 P2
+                     replication gene B, helicase loader (PMID 10756017)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2-like replication protein B"
+                     /translation="MANALVKQTNNVQPAPLKAVEGRNIPKGLAEIKALMGSERHTPE
+                     YVYTKVLSEQERTIVCFAAGLKRHDLEKGFANFNADTRLKIHKAILQLQELVKAFVDA
+                     NAMAPAKFLQNAPAESAKTSYSHLTVSSH*"
+     gene            6456..7046
+                     /locus_tag="PHIACA1_140"
+     CDS             6456..7046
+                     /locus_tag="PHIACA1_140"
+                     /note="gp14; homolog of phage C5a gp17 (YP_009787986);
+                     HHpred match to pdb:7EEW and many other DNA methylase in
+                     their catalytic domains only"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SAM-dependent DNA methylase"
+                     /translation="MSSTNRGTQRNADDYYVTPHWLIEDFLAAFSENCRFNFDEQAYP
+                     LMLDPSAGGCDKYEMSYPTVLEKQGFTVESWDIREDSRANLKGVNFLNVPSALLPKYD
+                     VLITNPPFNVAQEFTEHALEMVKEGGLVIMLQRLNWLGSQKRKPMWQKLPLAAVYVHS
+                     KRPGFDPQKPSKTDSTEYAHFVFCKGYELAPELFVI*"
+     gene            7056..7373
+                     /locus_tag="PHIACA1_150"
+     CDS             7056..7373
+                     /locus_tag="PHIACA1_150"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MLKMKLHPKAKTALRHLIDCEKSPSIRNMLSVTRQLAEEVLEKY
+                     APEISARFDCINSQTIEEAECADAWFNYSYKEYMIQDHHNVKNVDVFHQMHLPDELND
+                     IPF*"
+     gene            7392..7676
+                     /locus_tag="PHIACA1_160"
+     CDS             7392..7676
+                     /locus_tag="PHIACA1_160"
+                     /note="gp16; homolog of phage C5a gp18 (YP_009787987)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MNTIKDQDLSKNQLLVKNIVEHAVDQANFTIKNLGKRSTVAMLM
+                     ECENCLTDFMPVVKLIADDYIEYTPIYDQMCAAIDAVQIGEDLVEIEFAE*"
+     gene            7677..10163
+                     /locus_tag="PHIACA1_170"
+     CDS             7677..10163
+                     /locus_tag="PHIACA1_170"
+                     /note="gp17; homolog of phage C5a gp19 (YP_009787988);
+                     HHpred match to P51711 HP1 replication protein; and Q06419
+                     P2 replication gene A protein; This protein nicks the ori
+                     which is embedded within its coding sequence (PMID
+                     7816607)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2-like replication gene A protein"
+                     /translation="MANPKPLDLQALRLSGIAKGLISSISDIDDRNFLARGLQNVPVP
+                     LQSRMARKYIDRYNKKKAGSQYRANTWLRRTIARLKPRFGVLFSITQNMPLPWHILSS
+                     IEKTKKHAGTLAMECVQITLDVSEENQHLPYEKIISLTYDAIATHAKAVGANVPFYAM
+                     RDDNLPTECYEIALLKMQCDRWWARQLKTIRRQFLELLEIATGQVGKDLYHDKKSKKF
+                     KRRGISPYSSKQAQREFNFAQASGRQFLEMMELQSSDGDVISLIEAVKSGMANPANRR
+                     NELMLRIRETEELADEMGYVGVFYTITCPSRFHANSSKWHGETPKDAQNYLTQTWARA
+                     RSKLKRRGLKYFGVRVVEPHADGCPHWHMMLFMPKNKLQEVNAILRWYFIQEDKTELY
+                     DYYGPVQTRAKVVNEWVDINTHGTHIKTVEKCVSYRAGTKKSELFKTYKQKRREWGLK
+                     KSQGKKAKAPSKFYRTFSPRFDAIKMDKSKGSAASYIAKYISKNIDGYQLSDHEDAET
+                     GENLQEQANPVLAWASTWNIRQFQFQGSPSVTVYRELRRMPKGKAISDETIEPIRHAA
+                     DTANWKDYVKLQGGMCIGRAANFKSMYEDTQMGNDYAEVVRRIKGIVTNVSIESKLHR
+                     MINNVYNVTTETSLKTRLVEWTRQLKGTAEKLNAKDNTNVGAADLSWTSGNNCTPIAA
+                     GSRAELLLDMMGTSKNDVDEVIKDLNSGKRISRNGQIYQIRDGQLQVLNVDEQIKHDQ
+                     RLAIESLAKTYSQKAGSWYITEAHWKQAREYVELAYKYAQLDGRNTPNNTHIQNGLVT
+                     IGDWDLVTLVKQGSASAISSNDWWALDLMA*"
+     gene            10172..10438
+                     /locus_tag="PHIACA1_180"
+     CDS             10172..10438
+                     /locus_tag="PHIACA1_180"
+                     /note="gp18; homolog of phage C5a gp20 (YP_009787989)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Hypothetical protein"
+                     /translation="MTIQISKVLMPMACISCQAFCPKGFAEDQHSPFITKFDKPKPKT
+                     QYGQCGKNNNSVFATEICNGYQQEPNANVFTVTNRTQPKQQVAL*"
+     gene            10435..10710
+                     /locus_tag="PHIACA1_190"
+     CDS             10435..10710
+                     /locus_tag="PHIACA1_190"
+                     /note="gp19; homolog of P2-like Shewanella phage
+                     vB_SspM_M16-3 gp42 (YP_010664538); HHpred match to
+                     pdb:4KT5_C GrlA transcription factor, and Q06260 phageP1
+                     late promoter-activation protein, although missing N and
+                     C-terminal segments that may regulate those proteins (PMID
+                     24092262)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcription factor"
+                     /translation="MNTHSAAEKMLSTGLFYTARMLGHAFGESQKDGNRSIENIKKNS
+                     RYEIIEESHPVNKIKVVAIDGRRITIEQLQNTALLFKRPSLLIRGRT*"
+     gene            complement(10882..11127)
+                     /locus_tag="PHIACA1_200"
+     CDS             complement(10882..11127)
+                     /locus_tag="PHIACA1_200"
+                     /note="gp20; homolog of phage C5a gp22 (YP_009787991);
+                     HHpred match to P08762 P2 late control protein ogr (PMID
+                     3072262)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 Ogr-like protein"
+                     /translation="MARVTCPNCEAKATVTSREKQSAHVVNLYCSCTNTKECGATFRI
+                     TQSFDHFLNPPCKTTAQLAASLIKNLPREQQLELIGL*"
+     gene            11471..11722
+                     /locus_tag="PHIACA1_210"
+     CDS             11471..11722
+                     /locus_tag="PHIACA1_210"
+                     /note="gp21; HHpred matches to pdb:3M8J FocB transcription
+                     factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcription factor"
+                     /translation="MKYLHKGSQSQERLDVLLSFGKSTSEDIKAALSDYLVRGISKTN
+                     AATLNGVPGPNFTRALKRLEVVAGKVEEVKELDWSSRLG*"
+     gene            11777..12121
+                     /locus_tag="PHIACA1_220"
+     CDS             11777..12121
+                     /locus_tag="PHIACA1_220"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MLDFIKYVLNELGLDEHAEPTRTSVMKYHFRSRDEEIHVNFDLI
+                     IDDTYLELTEEDEKAFREFRSKQIFGEKLENLESSINKAVKLYMAKAELTKGNQQGST
+                     FRLTIDLKLEEV*"
+     gene            complement(12140..12595)
+                     /locus_tag="PHIACA1_230"
+     CDS             complement(12140..12595)
+                     /locus_tag="PHIACA1_230"
+                     /note="gp23; HHpred match to PF11351.11; GTA_holin_3TM"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="holin"
+                     /translation="MGWFKTLVSFITDPIADLTGGYVERKRIAAEMAADVARAENNFK
+                     IAQFEAKARRCMQAEQNDADYDLLVLKNRDKTLMDELIILFFLGLFICHFIPAMQPYM
+                     HKGWQSMGYKGAPWYFEFVIVGIAVSTLGLMRLFRAFWGGKAKGNKSAS*"
+     gene            complement(12595..12921)
+                     /locus_tag="PHIACA1_240"
+     CDS             complement(12595..12921)
+                     /locus_tag="PHIACA1_240"
+                     /note="gp24; HHpred match to PF16083.8; Phage_holin_3_3
+                     and other holin models"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="holin"
+                     /translation="MSWIDFMEFIKQWGRLFMLSFLAAGIQMYLSKRQFTFFHYFMSV
+                     LIAIFAAYLAAMFCEWRQFDESLKTGVIGVTAYAAPHILEGFDTLIKAISKDPKAFIK
+                     LIRGGK*"
+     gene            complement(12918..13982)
+                     /locus_tag="PHIACA1_250"
+     CDS             complement(12918..13982)
+                     /locus_tag="PHIACA1_250"
+                     /note="gp25; homolog of phage C5a gp24 (YP_010664416);
+                     HHpred match to P51717 HP1 and P25480 P2 portal; detected
+                     by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="portal"
+                     /translation="MKPRLQVSNGHAPNYNQRTAVTDSFSFGDPEPCLDNRLTDYIGV
+                     FSDSNGIYAPPISLQGLVKLLRVNAQHGPILYFKRNMILKWYKPNPLLSHQALSKFAF
+                     DLLWSGNAYLQIIKNSFGQVIKLRHLPALTMRYTDTRGVYAQISNRSHEPIYFNAGEV
+                     IHVKEYDPAQGIYGIPQYYGGIQSALLNEDATLFRRRYYKNGAHMGFIFSMADPNLSD
+                     ADETALKNAIRDSKGVGNFRSLFFNFRSNKADAEKSIKITPVGDISTKDEFERIKKIT
+                     LNDMLSMHRAQEALSGQSSGDSPGFGDLDKITRAYYNNEVVPLQQDVLGINNYLPAAQ
+                     HIEFKEPEYSDLNPTTKESA*"
+     gene            complement(13982..15754)
+                     /locus_tag="PHIACA1_260"
+     CDS             complement(13982..15754)
+                     /locus_tag="PHIACA1_260"
+                     /note="gp26; homolog of phage C5a gp25 (YP_009787994);
+                     HHpred match to P51718 HP1 and P25479 P2 large terminase
+                     subunits, and to large terminase models from many other
+                     phage families, but not in the first
+                     140 residues"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="large terminase subunit"
+                     /translation="MKANYGPEIRKKAQDLYVVEGYTVDEIAELEDMPSARSVRRWAE
+                     AGKWEDMCPSYNAEMAFSKRINVLADKDNKTDADYKELDFCTRQLCALNKSKLAPAPK
+                     QRASNDDAGNNNGGGSNKKPKKKKKNDCSGITVDMLNELKDKLLYPHQKHWFENQDYR
+                     SRFILKPRQIGATFYFAFEAFYDAVVNGRNKIFISASRDQAEVFKANIVALCREHFNI
+                     ELTGSPMVLNLAGGKTVKLIFKSTNARTAQSESGDLYIDEVFWIPNYKTLRGLAQAMA
+                     THKHLRITYFSTPSVTSHEAYDHWNGKWYRKTKACNDPEFAIDVSHKNLKHGLLCDDG
+                     IWRQMLTVHDVVKSGFDRIDIEVLENEYSTDEFNNLFMCKFIDDAHSAFNLKQIMACV
+                     GDSTKWDDFDLECERPFALKPVVIGFDPARFGDKASVAVLSAPMKPGEKFRLLEAVDL
+                     SGNDFEAMASEIKLLTEKYNVQHIGVDTTGIGYGVWEMITKFYPNAEPIHYNPIIKNQ
+                     LVIKAINVIKNRRFEFDQDAVNIASSFINIRRKVVGDQITYATNRTATTGHADIAWAI
+                     MHAMKFEPLDGNAHSRQTSVGIAA*"
+     gene            15959..16840
+                     /locus_tag="PHIACA1_270"
+     CDS             15959..16840
+                     /locus_tag="PHIACA1_270"
+                     /note="gp27; homolog of phage C5a gp26 (YP_009787995);
+                     HHpred match to P51719 and P25478 P2 scaffold; This
+                     protein is known to contain both a protease and a scaffold
+                     domain (PMID 19064277); protease segment detected by mass
+                     spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="prohead protease/scaffold"
+                     /translation="MPGQLRTKPLSIAAVGMTVDGREITEQDVADIVETYNPRKYGAR
+                     INLDHEFNWSGWAAKNLHNVDIPGMLGDVESVEAYENEEGVVCLYAVLAPNQSFVQLN
+                     KADQAVYFSIEISRDFMGSGKTYLTGLAVTDYPASCYTDRIHFSSKSKADDTEVALLT
+                     VDLGSCEPIDTPKKPFFKRLFAKEESDMNETQLANALKDALGTPLSEFGQKLDGLTAK
+                     LDSFSTTNVEAEDETTPPAEESAELTKLKEELSSTKTALDELNDKFAKALKAPAGDTT
+                     DADDEPEGDEGKYSQLL*"
+     gene            16884..17921
+                     /locus_tag="PHIACA1_280"
+     CDS             16884..17921
+                     /locus_tag="PHIACA1_280"
+                     /note="gp28; homolog of phage C5a gp27 (YP_009276438);
+                     HHpred match to P51720 HP1 and pdb:7JW1_b, P2 major capsid
+                     protein; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major capsid protein"
+                     /translation="MKTKTKQLFVAVLAGMASNYGVASMSEQFNVEPTTEQRLYDATY
+                     ESAEFLQMINTALVDDIVGQSVIMSVDGGVTGRAGVETDDTKERKTRDVSKLAKREYR
+                     CYPVECDIHITWNKMDQWSKFPDFHQRYRNHVRQAIALDIIKIGFNGTSAADTTDITT
+                     NTMLQDVNIGWLQLLRRDAPERVITEGAVTDEIRIGAGGDYENLDQAVHDALQGIPVH
+                     KRVNMVAIIGDELLANDKNKLYAKQAHTPSEKTKIELQQVIDTYGGLASYKIPFFPER
+                     GILITSFENLSHYVQAGSTRTHVEDNAKKKRVEDYLSRNDCYYVEDLEKAMYFESANI
+                     KLPNAAGDAWV*"
+     gene            18008..18751
+                     /locus_tag="PHIACA1_290"
+     CDS             18008..18751
+                     /locus_tag="PHIACA1_290"
+                     /note="gp29; homolog of phage C5a gp29 (YP_009787998);
+                     HHpred match to P51721 HP1 and P25476 P2 gpM small
+                     terminase subunit"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="small terminase subunit"
+                     /translation="MSLVKKSLAKAVSSVPSSTEKQAPTAAATATQANAPANNTEQNE
+                     YLFFAAAIESDLAQLKTFTDISDKASYKSEALQRNDYLGYINRYRLSGQNHHNKVLAW
+                     VFIWLVDLKRWDAVLELLPLLIEQKQPLPTVFNTKHWPAFVIDQLYDDANYYLTESKQ
+                     QGLYDIGFTLHRLINAVKNQDWAGLEVVGGKLYAIAAKVNKAQLNLGNALYFAEMAQA
+                     INDKAGVKTMLKELQKMIKPAEPEKQTAD*"
+     gene            18858..19295
+                     /locus_tag="PHIACA1_300"
+     CDS             18858..19295
+                     /locus_tag="PHIACA1_300"
+                     /note="gp30; homolog of phage C5a gp30 (YP_009787999);
+                     HHpred match to P51722 HP1 and P25475 P2 head completion
+                     proteins; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpL-like head completion protein"
+                     /translation="MNLSGMPQADLQSIDVDVPGNGYYPALSTAYFIEHYAIAQEYAS
+                     KSDLLVEKLKRAQGEINQELASAVLTNGEPLNAQQIIFYNDAVYSKAKANLLVSKLGS
+                     THRDSATAQSQTAIDNYEHWKGQSLNAMRLLQSLSPNLSVELL*"
+     gene            19292..19762
+                     /locus_tag="PHIACA1_310"
+     CDS             19292..19762
+                     /locus_tag="PHIACA1_310"
+                     /note="gp31; homolog of C5a gp31 (YP_009788000); HHpred
+                     match to P51723 HP1 and P36933 gpR tail completion protein
+                     (PMID 8178426); detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpR-like tail completion protein"
+                     /translation="MSQSKIAMLKQHLASAEYQGRNLALSTQFDSWIEGGRIEPSSKT
+                     VNGNGLLAARFYYSGVISINPCAAPAALICAFASFWLQNNGGRFDSTDIEFSADVNDD
+                     NSNEVELTMEQLCEDIELVQTANGPFELNGNRYDFGEQSLWIAEAFTLHGEVSA*"
+     gene            19755..20387
+                     /locus_tag="PHIACA1_320"
+     CDS             19755..20387
+                     /locus_tag="PHIACA1_320"
+                     /note="gp32; homolog of C5a gp32 (YP_009788001); HHpred
+                     match to P51724 HP1 and P36934 P2 gpR tail completion
+                     protein (PMID 8178426)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpS-like tail completion protein"
+                     /translation="MLNVKFDEGRSKEQLAFLKLKPRKRRNILRGAIRAANRSSKERI
+                     TRQSDLTGKTWQGRANGKKKKMLTKLKRNMKVRYGANSAGVYFKGGNSGKIARAHQEG
+                     VSLDAGKPKGKAAQNKEGPATRNLARALIAEGYKIPRGKGKGSKRPSIKWITANLSIN
+                     QAGFLLRELKGSSGKSSWKIDLPARSFLGQTLAEQKEQMNFILNKAMQVA*"
+     gene            20410..21510
+                     /locus_tag="PHIACA1_330"
+     CDS             20410..21510
+                     /locus_tag="PHIACA1_330"
+                     /note="gp33; homolog of phage C5a gp33 (YP_009788002);
+                     HHpred match to P51725 HP1 and P22501 P2 contractile
+                     sheath and pdb:6RBN_D and other contractile sheaths of
+                     phage-like bacterial contractile injection systems;
+                     detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="contractile sheath protein"
+                     /translation="MAQGKVSVAAIQTGSGATKQVERTVLFIGQAAKSNGSILAINAQ
+                     SDFDELFGDADSALKTQVKAWQRNGDDLVSGYAIPHGAGDDVMALIDQAMDQDVSPEI
+                     IVICTPVTGKAEIESYQAKALEILSSLARRVRFLLAAPGLTAEQNWTDLVTALQPLTD
+                     GVVGDRVAVVPLLFGDELGAVTGRLCKSAVTIADSPMRVLTGAMSLMPLPEDAAGNPL
+                     TNATTEALDALRFSCTQFYPDFDGVYFGDVNMLDAEGGDFQQIETGRIVDKAARAVRI
+                     IAIQQIKNRRLNNSTSGIEFGKRVMGKPLRDMSKSINIGADKFPGLIDAPKDDSISLT
+                     FMDARTLQVVLKVKPIDSPSTIIVGIMLDDAE*"
+     gene            21521..21970
+                     /locus_tag="PHIACA1_340"
+     CDS             21521..21970
+                     /locus_tag="PHIACA1_340"
+                     /note="gp34; homolog of phage C5a gp34 (YP_009788003);
+                     HHpred match to P51726 HP1 and P22502 P2 tail tube and
+                     pdb:8ED0_F Oshimavirus P7426 and other phage tail tube
+                     models; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tube"
+                     /translation="MQKVLGGKDFDIFIGSSMVHVMEATVKITDGRTVKKVRGIPKGF
+                     IDGDVEAEVTLKLDHENWLIVQAQAEKAGSWKGIEPFDVAFNAEVAAGKKNVEAFGCL
+                     PQLDEILNIKADGGEEDTTSIKCPVTSPDFVKINGVPYLTADEVRDL*"
+     gene            21970..22590
+                     /locus_tag="PHIACA1_350"
+     CDS             21970..22590
+                     /locus_tag="PHIACA1_350"
+                     /note="gp35; blast matches to eclectic phages and
+                     bacterial chromosomes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MTKAIRNLNAATLLSTMQACGHKVFEGELNLNIIGIRHANTRVN
+                     TFNDAICVLYQQNGEWQLKQFKATTDAGTYWRKNPMNIDGTAVLIAGQHRSLWALGYH
+                     QGKYRALVQHKPVVVLRDNNQNTELDTDVTPQAVLQQGYFGINCHRANSKVTSMQVDK
+                     WSAGCQVFANPNDFDEFIALCEQSAAKYGPYFTYTLLDQADIKESE*"
+     gene            22593..23047
+                     /locus_tag="PHIACA1_360"
+     CDS             join(22593..22844,22844..23047)
+                     /locus_tag="PHIACA1_360"
+                     /note="gp36a; Includes a projected programmed frameshift
+                     analogous to that in phage P2 (PMID 12426340)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail assembly chaperone with programmed
+                     frameshift"
+                     /translation="MAFEKKITLETPVGDITFNVNAADYNKYINATQPNNKVQPATNF
+                     VLNTVVESDAKKVQELVKQPGAALFLVGAIVEEYQPEFNFYRKKIEGRAKQIGKNRLD
+                     QLLAYHAKYFSNMPVTNESLAQALYLETSQQENFVTAVNNGICTALGGE*"
+     gene            22593..22880
+                     /locus_tag="PHIACA1_365"
+     CDS             22593..22880
+                     /locus_tag="PHIACA1_365"
+                     /note="gp36; homolog of phage C5a gp39 (YP_009788008);
+                     HHpred match to P51730 HP1 tail assembly chaperone, and
+                     PF10963.11, Phage_TAC_10, and pdb:3FGX"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail assembly chaperone"
+                     /translation="MAFEKKITLETPVGDITFNVNAADYNKYINATQPNNKVQPATNF
+                     VLNTVVESDAKKVQELVKQPGAALFLVGAIVEEYQPEFNFTVKKSKAEPSK*"
+     gene            23052..26546
+                     /locus_tag="PHIACA1_370"
+     CDS             23052..26546
+                     /locus_tag="PHIACA1_370"
+                     /note="gp37; homolog of phage C5a gp40 (YP_009788009);
+                     HHPred match to P51731 HP1 and O64314 P2 tape measure
+                     proteins with major length variation and evidence of an
+                     internal domain duplication; detected by mass
+                     spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tape measure"
+                     /translation="MATLSKLDKLTYSIGIIDKVTGPVNKVMAKINQLSQQTAAAQDQ
+                     MMRGATTAVAGGYALAKSLAPAIDHVAALGEVQSLGVADDALQKLTKTSYEFGFQFGG
+                     NSAEFVRSAYDIQSAIAGLTGDELSEFTKTSNILAVATKADAATITSYMGTMYGIFEK
+                     TANKMGKSNWVNQIAGQTATAVQLYKTTGAEMQAAFSNLGATATNIGLSSAQQFALVG
+                     ELQLVAKSGSVAGTQAASLLQGIGKAQETLGIELTADNGDMLAIDVVLGRINNRLSSL
+                     GSVARGDVLTQIFGKQGAKAVDVLSTKVDKLKDGIAVFEGVQDNSKAAEMANIIASPW
+                     DRLGGSFNAAATAMGNRLLPVVEPFVEMLAAGFAYIVSLTEQFPVLSSTIATVVVGVV
+                     GLVTVFGLVNFSMGLLKFSGLTLTSVFGGLTSVTGLYTKANKALAGSLATSTKATHSA
+                     SLASKLFAGVTARATLAQSRFHTTAAFTGGYLPALGAYAKGAAVSVGKFAMGLFNVTR
+                     IMGFLNAVMLANPLGVIIGLVVLLAALIYKFWQPIKAFMSGFWDGFVHSFAPVIDAFS
+                     ELGAAFSPIINAVKSVFNWFVSLFTPVEQSSQALAGVASAGEVFGLVFGAALNLILFP
+                     IKAVIWFITKLVNVITWVASAINGMWNAVKSPLGSFFDFIKTIFGFTPMGMMMKGYGK
+                     AFDWLSEKVGGLKGIADSIKDFFNFGDDETEIKATKVTQAAQPKTMVMQNADQAYSRD
+                     YGQAVINKAAKLPANTVAANDATYLPSTASNALTVQPKVMTEREAANDAFKFTSQRLP
+                     AVPTDTAAPLNLESQARSQTLINRAFPSEQNRAVTNSAASTAINDAVNNTQALTEVNS
+                     SVTNATQSNLAPAAITAQPKVMTEREAANDAFKFTSQRLPAVPTDTAAPLNLESQARS
+                     QTLINRAFPSEQNRAVTNSAASTAINDAVNNTQALTEVNSSVTNATQSNLAPAAITAQ
+                     PKAMTEREAANDAFKFTSQRLPAVPTDNTVPLNLESQARSQTLINSAFPSVKNNAVTT
+                     AANEGANSTSATTANINSSAINSALQNSTANNFTNAANSPLPPLPTNKTDQAITNTAN
+                     NSAYKVDQLSTEQQQQSNSYKAKVQKSAFLQNLTSNTNNSSSSSDSDNRKSVHIETVN
+                     FKSDDLAQSFEQMMELAG*"
+     gene            26546..26875
+                     /locus_tag="PHIACA1_380"
+     CDS             26546..26875
+                     /locus_tag="PHIACA1_380"
+                     /note="gp38; homolog of C5a gp41 (YP_009788010); HHpred
+                     match to P51732 HP1 and P51768 P2 gpW baseplate protein;
+                     and pdb:7YFZ sheath initiator from phage Pam3; and 5IW_B
+                     baseplate wedge protein gp25 from phage T4; detected by
+                     mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpW-like sheath initiator protein"
+                     /translation="MEFDIAMHIDLEIQDNDFVLNDSLSPSTLKKAGVIAQDIKHRIL
+                     ESGLLTKLVGLRNKNGIAPILTELELLTEQDNRIKPGTIKVYRNDDGTLSITAQTRQY
+                     GGLQSGL*"
+     gene            26865..28013
+                     /locus_tag="PHIACA1_390"
+     CDS             26865..28013
+                     /locus_tag="PHIACA1_390"
+                     /note="gp39; homolog of phage C5a gp42 (YP_009788011);
+                     HHpred match to P51733 HP1 and P51767 P2 gpJ, and
+                     pdb:5HX2_E Baseplate wedge protein T4 gp6, and pdb:7YFZ_L
+                     from phage Pam3; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpJ-like baseplate protein"
+                     /translation="MDFKTLMQNAGLPMDEQTAQAQWQTQLKEQNIQVANNSPFGPFW
+                     RTVEALITKPVVQLFNWIAQQLMPDLFIMTASRTALIERHGPARNVFIQAGVKAQGIL
+                     TFTRINTEGESAIFAGTQVITDVLGDKTYTLTLLQDVYFSDGQGTAYALAEAQNTGAA
+                     FNLPAHAYRYFPEQQGGITVTNNEDWLIKAGSDDESTEHYRLRIRNVFGTAARWHINA
+                     VYKQIIASFAVPIDNIEIETNAPRGPGTANAYIYLDVGPVPTALLSVINQHIRTAGHH
+                     GLGDDFMVYAMATTGFDITATYKLHPQSSSIKSDLTTFIQAAFRQNAAYAPTRVAHQT
+                     VFSISQLIAECHEQFSELKSIKFDIDDITAANWLPVLTSLTVNEVANG*"
+     gene            28006..28809
+                     /locus_tag="PHIACA1_400"
+     CDS             28006..28809
+                     /locus_tag="PHIACA1_400"
+                     /note="gp40; homolog of phage C5a gp43 (YP_009788012);
+                     HHpred match to P51734 HP1 and P26701 P2 gpI, and
+                     pdb:7YFZ_D from phage Pam3; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpI-like protein"
+                     /translation="MANEIATWLNKGYAEKLVKAATGYWDQSRDYVMWAVNQKDESKN
+                     EEPVLGFLAWERLTTRLDDEPIELYRKRVQHALVNTIGAGEIASVKSIFDRLGLEVLN
+                     VRERLDGRDWDIIAIDMTDSTLAGNADLLPELIQLYGRTCRRYELTVHNKADASLSLG
+                     LTHVQWDSCHIDHSLHLAAQNKAAQQYSHGFTNLQNESSHAPLHAITHNVKHTLPTEL
+                     LYQFLGFDNVVSNTAHQAMTTDVQHVVAAHHRYGFLSKEGGISIAKETL*"
+     gene            28806..29381
+                     /locus_tag="PHIACA1_410"
+     CDS             28806..29381
+                     /locus_tag="PHIACA1_410"
+                     /note="gp41; homolog of phage C5a gp44 (YP_009788013)
+                     N-terminal domain; HHpred match to N-terminal domains of
+                     P51735 HP1 and P26700 P2 gpH: This protein forms the part
+                     of the six fold trimeric tail fiber that mounts on the
+                     baseplate, but the C-terminal antireceptor domain has been
+                     replaced with a separate polypeptide in phage ACA1;
+                     detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpH-like tail fiber hub attachment subunit"
+                     /translation="MSEAITGIMTNAGRGYITTRALENKGLDVKELVFAKIPNLNEQE
+                     ERNPNEPMPSDLQIVHRRNIDVSGYVDENTVAWAVVLEQEIGDFDYNWIGLVTQNGTL
+                     LAVDYLPLQRKRQGVNNVHNRSFVLKFAAAAALARITIPAQSWMFDYSPQIDALNALS
+                     LTTATAQVNNMYRTLRNYFLMSEFTVFTKEL*"
+     gene            29381..30631
+                     /locus_tag="PHIACA1_420"
+     CDS             29381..30631
+                     /locus_tag="PHIACA1_420"
+                     /note="gp42; homolog of phage VHML antireceptor
+                     (NP_758928); homologs also appear in P2-like phage
+                     ST437-OXA245phi4.1 and close relatives thereof; There is
+                     concentrated divergence between phages ACA1 and ACA2 in
+                     the C-terminal region which has been effected by an
+                     associated diversity generating retroelement; HHpred match
+                     to Q775D6 tail fiber receptor-binding protein of
+                     Bordetella phage BPP-1 and pdb:5VF4_A; detected by mass
+                     spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Antireceptor"
+                     /translation="MSIEQINEIVTAADRVVAAVENKAAEIDSKTAALDSDYNSKKAA
+                     LDQQVAENSAQLAIVASDGYRKAIEDASGGRNTVVIDEQGNPNVMVRIPRFNYEDINQ
+                     AILDRLGVDLMLGTGTPTMFQRNGEQMGEVLIAKYLASSGANGGCSVIGGVQPRTSVN
+                     YDVAKALCNNKGAGWHMMSIHEWAAIALWSLANDTVPRGNTNYGRSHEKKLETARRGD
+                     NGIPGDTSGLARTDTGKGPATWSHDHAEWGIQDLVGNVWEWLDQMMLSEGQVITTLDN
+                     NPEIVEENWIKHSAYFDSPVANTEGTGSAGSPVLNSAITNRNGPVGEDSNDNPYLTNG
+                     HFAAITKSETYQKVEILRRLLIESESTTTVPGAIYCRNYGNRFPRRGGGWSVGSGAGL
+                     GALSLSGGRSYADGTIGFRPAFFA*"
+     gene            30692..31045
+                     /locus_tag="PHIACA1_430"
+     CDS             30692..31045
+                     /locus_tag="PHIACA1_430"
+                     /note="gp43; homolog of Vibrio phage 58.5 accessory
+                     variability determinant of the diversity-generating
+                     retroelement (YP_009167726); HHpred match to pdb:4DWL_C
+                     Accessory variability determinant from Bordetella phage
+                     BPP-1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Accessory variability determinant"
+                     /translation="MAALAIEEKCRDMLMYGYQAIKQFPKHEKHVLAAEIRKSMLQLQ
+                     RLIVTAFKRYHKKTTLTELDIELAILKRQVRLAKDLRYIDTKKYQLWIERLVEIGKML
+                     GGWIKSVKNKQAVAL*"
+     gene            31042..32307
+                     /locus_tag="PHIACA1_440"
+     CDS             31042..32307
+                     /locus_tag="PHIACA1_440"
+                     /note="gp44; BlastP matches Vibrio phage 58.5 gp20
+                     (YP_0091677270; HHpred match to pdb:8H2H_D group II
+                     intron-encoded reverse transcriptase and many other
+                     reverse transcriptase models; Diversity-generating
+                     retroelements generally contain reverse transcriptase
+                     genes of the mobile group II intron family (PMID:
+                     26104433); The target repeat of the antireceptor in phage
+                     ACA1 appears to be translated as the first
+                     130 codons of the polypeptide containing the reverse
+                     transcriptase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Reverse transcriptase"
+                     /translation="MNARNRFPLRGGNWNNGSNAGLGALNLNNGRSNANSNIGFRPAL
+                     EYARSNIPKGVCQCDFEKDAASSAIAEKEIKPVDASIGCTYEKIYQFENILNAAYQCR
+                     KGKATSASALAFFNNLEENIVQIQNELMWEMYSVLPYRHFYVFEPKRRLISAPHFKDR
+                     VIHRAIYNVIEPLFDKQYIYDSYACRKGKGAHVGADRAQHFIKQVESESGKAYALKAD
+                     ISKYFSSIDHQILKSILGAKLKCQRTRNLLFYIIDNSPNDAAGVGIPLGNLTSQIFAN
+                     IYLHELDHFAKHTLKARRYIRYMDDFTIIHHDKRALHEYREKIEGFLYKNLRLKTNSK
+                     TQVFPIAKTRGRSLDFLGYRIFANHRLLRKSSVKRISTKLKKFRKEFSQGKVTLAEIN
+                     QCVQSWLGHASHANTHSIKLKLFNTPFKR*"
+     gene            32312..32587
+                     /locus_tag="PHIACA1_450"
+     CDS             32312..32587
+                     /locus_tag="PHIACA1_450"
+                     /note="gp45; homolog of phage VHML gp37 (NP_758930); Other
+                     than common ancestry with the Vibrio phage DGRs, there is
+                     no other evidence linking this gene to DGR function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MFTYIYKGASHSNTSAEYMQNLGMDQEQIDAVLNQQQFELSQNI
+                     EKRQAAYKAESDPLYMEAQCDGTPESLQTWQDKVAEIKARYPLPDNA*"
+     gene            32580..33209
+                     /locus_tag="PHIACA1_460"
+     CDS             32580..33209
+                     /locus_tag="PHIACA1_460"
+                     /note="gp46; HHpred match to P51737 HP1 orf33; detected by
+                     mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MHNLALCSHQTAVPCSMQVGAQLLASAIKDDSRTDKPTSYGGLL
+                     LSVSATDPATLASKLESINEYCPTPEFIACAQYANSQSTLEQTKLDTYDGQSIEWQIN
+                     TLQNLLPLREQLIAEELATVNNSGQQLITTIDDALTQTAELKTARDERLNQAQFTAQS
+                     SGVDVQLITAGTAKQLADSVANKGNDHSYWALCLFVGEQGELNQIKEVL*"
+     gene            33206..33691
+                     /locus_tag="PHIACA1_470"
+     CDS             33206..33691
+                     /locus_tag="PHIACA1_470"
+                     /note="gp47; homolog of phage C5a gp45; HHpred match to
+                     P51738 HP1 orf34; similar size and syntenic position to P2
+                     gpU, but with similarity by HHpred to PF06995.14 only at E
+                     = 0.015; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative P2 gpU-like protein"
+                     /translation="MSLAIDGWNIPGFETRVDASVKLAGGDMSGFGSFALSSDQGVKP
+                     GLITVKTKIPMLDESELAALIAKSKALDENGARVVYTITNALAEAYKIRKAKFDGEVK
+                     ATELEEKRAWQVTFKLVEVQSVSEREQQQLDEQASTNAEPQATTSNDDVQNKFNEVEG
+                     P*"
+     gene            33688..34392
+                     /locus_tag="PHIACA1_480"
+     CDS             33688..34392
+                     /locus_tag="PHIACA1_480"
+                     /note="gp48; homolog of phage C5a unannotated gp45a
+                     (33586..34275); HHpred match to N-terminal domain of
+                     P51739 HP1, and P10312 P2 gpD hub protein, and pdb:1WRU_A,
+                     Mu gp44 shown to be structurally homologous to T4 gp27
+                     which is the mounting point on the bottom of the tail tube
+                     for the cell puncturing device (PMID 16125724); detected
+                     by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="P2 gpD-like protein"
+                     /translation="MSTRLSNTLKIAGQSVTNIVAKTVQLDIASTGRAKFEVVAEQEP
+                     SGLVELHLGYTLDNMIPYFLGVIESKHQANGRWYLTCRELIGALSFPAPLAVRHATIK
+                     AVLDELAKLGVEFATPENAEYLNQIIPAFYHSGTGIEALRQIGKVWSINDFIFQQRPD
+                     GKIFVGSWHDSRWPLAAINDFPEHTITAKSSTTGELIAIPKLRPGIKLNGRHITEVTL
+                     INDRMHIRWSNKPLNA*"
+     gene            34365..35318
+                     /locus_tag="PHIACA1_490"
+     CDS             34365..35318
+                     /locus_tag="PHIACA1_490"
+                     /note="gp49; homolog of phage C5a gp46 (YP_009788015);
+                     HHpred match to P51739 C-terminal domain HP1 and
+                     pdb:3QR8_A P2 gpV tail spike and other tail spikes
+                     including pdb:1WTH_A T4 gp5 but without the embedded
+                     lysozyme domain; detected by mass spectroscopy"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell puncturing device"
+                     /translation="MVKQAIKRLIQRYFPELNERKHLPQLACIEKIYDLPSSAAAIST
+                     VFRPLKAADVQLLNPLTGEPLAVPVFQQVTLGTGQASDHGLLNEPTPGMHCLIQYIDG
+                     LNSHPVITNLLPWQSLVPEHKRTDVTLQQSSRSNIQGRDGNWHTTTDGQIAQTSDTTK
+                     RKSRNCLENHHERNTNIATHDTLKIDGNQITEVMGALKTVVGEKALIVALEGLLLGSK
+                     KQVDIEAAENMNLTTLKTLHAKATELAKVEGTTVWLGNNSVNVAQVLLDLISLVKDIN
+                     QSLENHGHTSAGAGAPITKSEFAAHKSAASSLKSTLESVVE*"
+     gene            35394..35564
+                     /locus_tag="PHIACA1_500"
+     CDS             35394..35564
+                     /locus_tag="PHIACA1_500"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MMEKLDRIAELNTEMQAILTLLTDGESYIRLNKKHLDSMLHSLL
+                     NNTETINRELLD*"
+     gene            complement(35561..36634)
+                     /locus_tag="PHIACA1_510"
+     CDS             complement(35561..36634)
+                     /locus_tag="PHIACA1_510"
+                     /note="gp51; homolog of phage C5a gp2 (YP_009787971);
+                     HHpred match to P21442 HP1 and P36932 P2 integrase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="integrase"
+                     /translation="MASYNIEKRRLASGDYRYKCVVREKSKGKIIHNESKTFSKRVLA
+                     ESWGKKQVNDIEQSRVTETKQVVTLGTLMNMYYENHDLWNATGRTKQFVIKMLIDCDI
+                     ASVLSNELRTSDLIEHCKNRRSAGAGPATIYHDIAYLRSVMKKAGPVWNIDANHKIFE
+                     DAVPVLIEMGLVGKSQKRTRRPTDNELDKLREGLKERMDYRRNGKVRIPFLDILDFSI
+                     LTCMRIGEVCKLRWEDLNEDHKTILVRDRKDPRKKEGNHMIVPLLAGSFDIVMQQPKS
+                     DDLIFPYNSRSVTAGFQRVRNALGIEDLRYHDLRREGASRLFEKGYSIEEVAQVTGHR
+                     NLNILWQVYTQLFPHKLHDKFNT*"
+BASE COUNT    11879 a   8028 c   7847 g   9071 t
+ORIGIN      
+        1 tgattggact gataagtaag catttaaagg gttgtaggtt tccaaggggg actatagggt
+       61 cacctttaca gttttaaggg gtcccgatat agcacagttt gtgtcatatt taattgactg
+      121 ggtacttaac ttcagttact ttacacgcat aaagtttact taactaaaca tatatcattt
+      181 aagttgctta ccttatttat gcaactattc ttaatattag tagtcttatt tattagttaa
+      241 cagccaatta cggctgtttt tgtcgtgggg tttattatgg aattgccagc agtcaagaat
+      301 atacttgatg ccaattggga ctggcgtcta cctgtaaata tcgaagatat tgcgactaaa
+      361 ctagacatca aagtcgcttc tattaactgt tttaatccag agcatgaaag ctttagaggc
+      421 ttaagtggtc tagctgaaat taataatcaa ggacagcggg ttatttattg taatggtaca
+      481 gaaagcttaa atcgtcagcg ttttactcta gcacatgagt taggtcacca tgcattaggt
+      541 catgttgagc caggtaaaca gatgcagcgt attgatatgc cagctgcatt taattctaat
+      601 tcagatgatt gggaagaaag agaagctaat aattttgctg ctcaaattct tatgccttta
+      661 gatgcaatta aaacaatgtt gtttgctaaa ggtattagta atattaaaga gcttgctaga
+      721 atcttccaag tatcagaagc tgcaatgtat tatagattga agaacctagg gtatctcact
+      781 ttataaagtt gagctgaaca aattattaat ataatctagc cctttaattt aagggctttt
+      841 ttatgtctaa tagaaatgag gatgaaaact tagacctttc agacggggtc gtaagttcta
+      901 acaatgtgga attgagtaga gatcatgatg ttactactct taaacgtgaa agtactattc
+      961 ttgggtttaa aatttgggaa gaaaggtttt atcttggttt taaagcactt ggttttatag
+     1021 ttgctatgtt tcttgctgtt tgtttcttga aaactggttt agaactttct gaaaagtcac
+     1081 taactcatat ccttgaacat cgaacagata caacaataga aaaaaataaa aagcctttaa
+     1141 aagatagttc gatagcagct gttagtcaga atgataattc cgctatacaa aaagaaaaga
+     1201 aaagcctaaa agataaagca gctttagata tagaaaagaa aagtaaaaaa aataacgttg
+     1261 agcttaaggc ggaaaaggca accaaagaaa atgccaaaca accaactcaa agtatggaaa
+     1321 ataaaatgct ttattcaggg tcaatcataa ctttagttgc atttatactt ggcactggct
+     1381 taactttatt actcacgatt gttaagttct ctttccataa ccgacaacaa aacgaagata
+     1441 atccaaacgt agctctcgca ggtccagcaa gtgagttgtt tatggcttta gcaaattata
+     1501 taaaaagtaa aattaaataa agaagcccgc tacttagcgg gtttttttgt ataagaaatt
+     1561 tgatgaattg caaaatctaa ctaaactagg tttttaacca aaatgaaaag ggaattgtag
+     1621 tgtctataaa aaccgatatg agtggattaa ataaattaac aaagaactta gaagagttgg
+     1681 ggaaacagga ctcaattgct gttggcgatg taatgacgga tgagtttata tctcgctatt
+     1741 caagttactc aagtttagat gaactcgttg atgcaagtgg gtttgttgtt aatactccag
+     1801 aagactttaa agctatacca gatgaagagt gggaagcttt tattgtgagt aacactaact
+     1861 tttcttcttg gaaagaaatg cagctcaaat cacatgaaga atttctccat aaaaaaatta
+     1921 tgaaaggctt ataattaaaa agaagaactc gctagatagc gagtttcacc ctaacaaatt
+     1981 actcgttcta tgcaatctaa tcgactggcc aacaacacct tcaacgttgt attcatcatg
+     2041 ctcagttatt tttaccgctg ggtgatcagg gttagcagat aaaagctggt tgttttttaa
+     2101 gtcggctatt ttacaaacga acagtccatt taaagcagct acgattacat cgccgtgttt
+     2161 aaccgttgcg gccctatcaa taatcaataa atccccgctg aaaataccaa ccccttccat
+     2221 actgttgcca ctggcacggc caataaaagt agcgtcagtt ataaggctgt tatctaaatt
+     2281 gttttctagt tcttttatgc caggtcccac atccacatta gaaataatca ccaaataaac
+     2341 cccttaacaa aaataattta aattaatttt agccctattt tagccctatt ttagccagtt
+     2401 taaaaaagtg ttcggatgaa gaaagacaaa accacgtgta tttaacaaaa gttgtaacgt
+     2461 attgctacct ctaatataag taacatgtaa gttaaaaacg agtaaaaaaa acaggtgttt
+     2521 ttggtattaa aaacaggtga aatcgctgac tattaagttg ttataaatca gcttgttcgg
+     2581 aagttgcaac tgtttttata tacagtatat cgagttgcta ttataaaatt tatcattaca
+     2641 atgaaattga ctcttaaaca gagctctttt aacaaaaaaa ggattaagtt atgaacaagc
+     2701 aacacgtaaa cggaaaatca gtacttttat tagcgcaggt aagtggtggt gaagatactc
+     2761 aggacaatgg cggtggcggc ggcggtgtag agccaccaaa attaaactaa gccagcacaa
+     2821 atcattaacc agcattattg ctggttaatt acaccaccaa ggaaaacaca tgattgattt
+     2881 tataactgct acagactgga caataagagc gctagaagtg cttattattc tttatttgct
+     2941 agtaacgctt aacaagcacc gcctggcgtt attttttggt ggtaaaagta atttaaaatc
+     3001 aattgatgat cacacaatgc attcatgctt tattgctgca cttacagtga tggtgtttca
+     3061 ctttgtaagc tcaagcctag ctcaatacat aattacaata gaaatgagca agctagcact
+     3121 caggcagttt ttttacttca ccatgtttag ttgttcaatg gcatttgtca tagcgctatt
+     3181 ctttatgcat aacattaggg gttgcacgtt ttcaacaact gcgcggcttt gcttatacct
+     3241 tgcactagct caatcggttg tgcagctaat acaatttatc atgcgtggcc tgctagatag
+     3301 cagcatgctg tcaccagctt atagctttag tgtggtggcg ctcaacttat tatcgttagg
+     3361 cgttgttgct atttacccag ctaaaaaatt tactggccta ctaacaaaag agggaattta
+     3421 aatgccgtta cttatagtaa tgtttatctg tttaacaatg gcgttgtgta taaccggagt
+     3481 cgcaatagtg cgcggccaaa acacaacagg catagaaacc atacttaaac ataaaataaa
+     3541 gcactacatg ccagagggaa cagcagccca acaagacgat ggcggtgtag cctactcaat
+     3601 agtcatggat ttaggcgcca caatagaaca gccagataac tgggataaaa tagaatcaat
+     3661 gaacgtggta cacaaacgcg ccaccatgtt tagaaaccaa gcacttaaaa agccaactaa
+     3721 cataccaccc gcgcaagaac gtcccatatt caaacttgtt aaataacccg ctaaggcggg
+     3781 ttttttaatg ttcattaaaa aggcgtacct tgttaaaaca tgaacgataa attaatgtat
+     3841 atacctacac atattacgga aaataaaagg aataaatatg gtcaaggtcg gaacgtgggt
+     3901 actcggggtg ttatcactta tatcagtaat aatgtatttt gatttaggcg atcacctgtc
+     3961 aggggtaatt tgtatgtttg cagctgggtt tttcttcccg ccagtgctta acaaaataaa
+     4021 caaaacaaac aaagaaaagg ccgaatcaaa aggcaaaaca cataaagaca taactcaaaa
+     4081 atcagcagtt atatttggta ttgttttatt ggccattgcc gctattttaa gtggcggtag
+     4141 taataccgaa accaataaca gcacacaaag tacacctaca gaacaaaccc aagagcgtaa
+     4201 acagttaaag ccaatagatt taatttatca attaaaatca aaagttgacg agctagacta
+     4261 ttggtttaaa gggccattca aagagagcga taagctaaga ttttatgacg taaaaaagaa
+     4321 ttatgataaa cagttagatg ttatctgcag cgactttgat aggttagtag aaaatacagg
+     4381 caatcttaat agtgaatatt atgatgaagc acttgcttgc agtaactttg agttaagcct
+     4441 tgttcatgta attcaaaatt taaatcacgg tacatatgca gaaataccaa aactaaggca
+     4501 gaagcttgaa ccagcctacc aaaacttaaa gcaacaagta gatgaagaaa taaaacgatt
+     4561 aaataacaag taaataataa gcccgctaaa tgcgggcttt ttttatgctg ttttttggct
+     4621 attggcgggc ttgcttgcgc gggcgtcaat cacaggcttc aagtctttta gcaacaattt
+     4681 accacagtcg ttaatatcaa tctttttatc tgggtttacc ctaaaccaat caagatgaaa
+     4741 gaacatcatt aacgatttaa ttgaagtatc aataaactct ttttcaaact cttcttcatc
+     4801 caacaggcct tgttgactga ttaaatctcc tggagcaatt tgtccagctg caggattagt
+     4861 ttcacctgta aacaaccaca ttaaatacat ttttgtctgt gggtgattag caattttttc
+     4921 taaattacca gctccaggtt cagagattcc agcctcatac ttcttgtaac cacttaaccc
+     4981 aatatcaagc aattcgcaga acttagcctg acttaaatga agtgattcac gaatagtttt
+     5041 aattttaagc ccaatagtgt ttgacatggt tcttataaga tcataatatt atcccagata
+     5101 caatagtgca tcaaatggtt cttttgtgtt ctctttatgt gattgggctt aataacgtgc
+     5161 cctaacaata aaggttagca caattatagt ccgtttagga accaaacgaa tcaagataga
+     5221 ggtcaattat ggatactgaa aaatacagaa aaaacttaca gggtgaagta gttggccctg
+     5281 atgaaaactt cttaaagcgt aaacaagtgc tcgaaatgtg cggcatttca ctttctcacc
+     5341 tgtactacct aatgaataaa ggcatgttcc ctaagtcgca tcgtgtatca caccgcagtg
+     5401 cggtctggct tgaatcagac ataaatctgt ggcgctcaat gaatgccaat catttttatg
+     5461 cagagtacgg cgagcaaatt aaagcacaaa aattaggtga aggcgcagcc gcatgaacat
+     5521 gacctttgca cttttagcga tatacaacac cccagcggtg ccgcttaaag acatttgtga
+     5581 ggaatactta ggccttaagt ttaaaacagc cgagcaaaaa gcaaaggcag cgcagttacc
+     5641 catacccaca tttaaaattc gcgactcaga acgtgcaccc accatggtaa acgtaaacga
+     5701 cctaggagcg tatttacagg cccgttacga cgcagcccaa aaagaatggc taagcattaa
+     5761 taactaggag caaaggcaat gagcacatat aaagtatttg accaaaacac gtataacgca
+     5821 ttacctaact tagccgccaa agctgagtat ttacttacgt gcaaaataag cacgaaagac
+     5881 gccgttaatt gtaaatcagt tgaatttgaa ccgtgcttac aagcctttgt tggtgagttg
+     5941 ccattaccta tttactgcca cggcaacgga aaccaaacca tacaaaaagc cgtgtactgg
+     6001 ttaaaaacgc aagccctatc taaaccacaa caagcacaag gagtataacc atggctaatg
+     6061 cacttgttaa acaaaccaat aacgtacaac cagcgccatt aaaagctgta gaagggcgca
+     6121 acataccaaa aggcttagct gaaataaaag cgctaatggg tagcgaacgc cacacaccag
+     6181 agtacgtata caccaaagtg ttaagcgagc aagagcgcac aatagtgtgt tttgctgcag
+     6241 gcctaaaacg tcatgacctt gaaaaaggct ttgccaattt taacgctgat acacgcctta
+     6301 aaattcacaa agctattttg cagttacaag aactggttaa agcatttgtt gatgccaacg
+     6361 ccatggcacc ggctaagttt ttgcaaaatg cgcctgctga gtctgcaaaa accagctact
+     6421 cccacctaac tgttagttca cactaaggat tgatcatgag ctcaactaat cgcggaaccc
+     6481 agcgcaatgc agatgactac tacgtaacac cgcattggtt aatagaagat tttttagcag
+     6541 cgtttagcga aaactgccgc tttaattttg acgaacaagc atacccgtta atgttagacc
+     6601 caagcgcagg cggctgcgac aagtacgaaa tgagctaccc aaccgtacta gaaaaacaag
+     6661 gctttactgt agaaagctgg gatattcgcg aagactcacg cgctaattta aaaggcgtta
+     6721 attttttaaa cgtgcccagc gctttattgc cgaaatacga cgtgctcata acaaacccac
+     6781 cgtttaacgt agcgcaagaa tttacagaac atgcgcttga aatggttaaa gagggcggtt
+     6841 tagtgatcat gctgcaacgc cttaattggt taggtagcca aaagcgaaaa cctatgtggc
+     6901 aaaaactgcc attagccgcc gtttatgttc atagcaaacg cccaggcttt gacccacaaa
+     6961 agccaagtaa aacagattca accgaatacg cccattttgt attttgcaaa ggctacgagc
+     7021 tagcccctga actttttgta atttaacgct gggaaatgct gaaaatgaaa ctacacccaa
+     7081 aagcaaagac tgctcttagg catttaattg attgtgagaa atcaccgagc attagaaata
+     7141 tgctttctgt tacgcgtcag ttggcagaag aagtgcttga aaaatatgcg cctgaaatat
+     7201 cagcgcggtt tgattgcatt aactcgcaaa caatagaaga ggcagagtgt gcagacgctt
+     7261 ggtttaacta ctcatataaa gaatacatga ttcaagatca tcacaacgta aaaaatgtag
+     7321 atgtttttca tcagatgcac ctgcccgacg aattaaacga cattccgttt taaacccaaa
+     7381 ggactactaa aatgaacaca atcaaagacc aagatctatc taaaaatcag ctattagtta
+     7441 aaaacattgt tgagcatgcg gtagaccaag ccaactttac tattaaaaat ttaggcaagc
+     7501 gctctaccgt tgccatgcta atggagtgcg aaaactgcct aactgacttt atgccagtgg
+     7561 tcaaacttat tgctgatgac tacattgaat acacgccaat ttacgaccaa atgtgcgccg
+     7621 caattgatgc cgttcaaata ggtgaagatt tagttgaaat agagtttgcc gaataaatgg
+     7681 ctaaccctaa gccactcgac ctacaagccc ttagactatc tggtatagct aagggtttaa
+     7741 tttcatctat tagcgatatt gacgaccgca actttttagc gcgtggcctg caaaatgtgc
+     7801 cagtgccttt acaaagtcgt atggcccgta aatacataga ccgctacaac aaaaaaaaag
+     7861 cgggtagcca ataccgtgct aatacatggt tacgccgtac cattgcacgt ttaaagccac
+     7921 gctttggcgt actgtttagt attactcaaa atatgccatt gccatggcat attttaagca
+     7981 gtattgaaaa aaccaaaaaa cacgcaggca cactcgctat ggaatgcgtg caaataacgc
+     8041 ttgatgtaag cgaagaaaac caacacctac cgtacgaaaa aataatatcg ttaacctacg
+     8101 atgcaatagc aactcatgcc aaagctgtag gcgctaatgt gccattttat gccatgcgcg
+     8161 acgacaactt gccaaccgag tgttacgaaa ttgcactgct aaaaatgcag tgtgatagat
+     8221 ggtgggctcg ccaattaaag actattcgcc gccagttctt agaattacta gaaattgcca
+     8281 caggccaagt gggcaaagat ttataccacg ataaaaaaag caaaaagttt aaacgccgtg
+     8341 gcattagccc ttactcgtca aaacaggcac agcgcgaatt taactttgcc caagccagtg
+     8401 gccgccagtt cctagaaatg atggaactgc aaagcagcga cggcgacgta ataagtttaa
+     8461 ttgaagccgt aaaaagcggt atggcaaatc ctgccaaccg ccgtaacgaa ttaatgttac
+     8521 gcatacgcga gaccgaagag ctagccgacg aaatgggcta tgtaggtgtg ttttacacta
+     8581 ttacttgccc gtcacgtttt catgcaaact caagtaaatg gcacggcgaa accccaaaag
+     8641 atgcacaaaa ttacctaacc caaacatggg cgcgtgcccg ttctaagtta aagcgccgtg
+     8701 gtcttaaata ctttggtgtg cgcgtagttg agccacatgc cgacggttgc ccgcattggc
+     8761 acatgatgct gtttatgcca aaaaataaac tgcaagaagt gaacgctatt ttgcgttggt
+     8821 attttattca agaagataaa acagagcttt acgattatta cggccctgtg caaacccgcg
+     8881 caaaagtagt aaacgaatgg gtagatataa acacccacgg cacgcacatt aaaaccgtcg
+     8941 aaaaatgcgt aagctaccgc gcaggcacta aaaaaagtga gctgtttaaa acctataaac
+     9001 aaaagcgccg cgagtggggc cttaaaaaaa gccaaggcaa aaaagctaaa gcgcccagta
+     9061 aattttatcg tacttttagc ccacgctttg acgctataaa aatggataaa agcaagggca
+     9121 gtgcggccag ctacattgcc aaatatatca gtaaaaatat tgatggctac caattaagcg
+     9181 accatgaaga tgcagaaaca ggcgaaaacc tgcaagagca agctaacccc gttttagctt
+     9241 gggctagtac atggaatatt cgtcagtttc aatttcaggg ttcaccaagc gttaccgtgt
+     9301 atcgtgaatt acgccgcatg ccaaaaggca aagcaataag cgacgagacc atagagccta
+     9361 ttcgccacgc tgcagatact gccaactgga aagactacgt aaaactccaa ggcggtatgt
+     9421 gtataggccg tgcggctaac ttcaaatcaa tgtacgaaga cacacaaatg ggcaacgact
+     9481 acgccgaagt agtacgccgc ataaaaggca ttgttaccaa tgtaagtatc gagtcaaagc
+     9541 ttcaccgcat gattaacaat gtttataacg ttaccaccga aacaagcctt aaaactcgcc
+     9601 tagtagaatg gaccaggcaa ctcaaaggaa cagccgaaaa actcaatgct aaggataaca
+     9661 ccaacgtcgg cgcagccgac ctatcttgga ctagtggtaa taactgtacg cctatagccg
+     9721 cagggtctag ggctgagttg ttactcgata tgatgggcac ctcaaaaaat gatgttgatg
+     9781 aagtaataaa ggatctaaat agcggaaaaa ggatcagccg aaacggccaa atttaccaaa
+     9841 tacgagacgg ccaacttcaa gttttaaatg ttgatgagca aataaagcat gatcagcgct
+     9901 tagctattga gtcattggct aaaacatatt ctcaaaaagc aggtagctgg tacataactg
+     9961 aagcccattg gaaacaagcc cgcgaatatg tagagcttgc ttataaatac gcgcagcttg
+    10021 acggtcgcaa cacaccaaat aatacccata tacaaaatgg cctagtcact attggcgatt
+    10081 gggacctagt tactttagta aaacaaggca gcgcatcagc aatcagcagt aacgattggt
+    10141 gggcactaga tttaatggcg taggagaaaa tatgactatt caaatttcaa aagtattaat
+    10201 gccgatggca tgtattagtt gccaggcatt ttgcccaaaa ggttttgcag aggatcagca
+    10261 cagcccgttt attacaaaat tcgacaagcc aaagcctaaa acccaatacg gccagtgcgg
+    10321 aaaaaacaat aacagcgtat ttgctaccga aatttgcaac ggctaccagc aagaacctaa
+    10381 cgccaacgta tttacagtaa ctaacagaac acaaccaaaa cagcaggtgg cattatgaat
+    10441 actcactcag cagcagaaaa aatgctttca accgggttat tttatacagc aagaatgtta
+    10501 ggccatgcct ttggtgagtc tcaaaaagac ggcaaccgta gtattgaaaa tattaaaaag
+    10561 aactcacgtt atgaaattat tgaagagagc cacccagtga acaaaattaa agtagtcgct
+    10621 atcgatggcc gcagaatcac tattgagcag ttacaaaaca ccgccttgtt atttaagcgc
+    10681 ccaagcttat taataagagg acgaacatga aaccaaaaat taaacgtcgt aactgggtat
+    10741 actactcaat tgttaagttt accgaaactt gcaaacccca acaaaacagc taaatttaac
+    10801 tttgccgaaa ggcaattttt aacgttttcg tcctaaccca cacatgttgt gggttttttt
+    10861 atggctaaaa taaagttaag gctaaagccc aatcaattcc aattgttgtt ctcgaggtag
+    10921 gtttttaata agtgatgccg ctaattgtgc agtagtttta caaggcgggt ttaagaagtg
+    10981 atcaaacgac tgggtaatac ggaatgtagc cccgcactct ttagtgttag tgcacgagca
+    11041 atataaattc accacatggg cgctttgctt ttcacgtgat gtaactgttg ctttagcttc
+    11101 gcaatttgga caagtaaccc gcgccataat attcaccaat cgttaataaa aacaactgtc
+    11161 attatataca gtggttgcat gtatgccaaa caaccattta actattagct gagaacccaa
+    11221 agactccaaa attcactcct cctcgccttc cgctttcgtg caaaaaatgc gttcaattga
+    11281 cacccccagt gacaagccct ttctggctag cccttattac taaaggatct aaaagaaagt
+    11341 taaaaaggat cgcagtgtca aaagtgtgac aatgtttgac ataaagtgac aataaaaagc
+    11401 tcaaataggt ggtcatttgc ctaatattga aatatcatta atttattatc agttaagtga
+    11461 taaataaatt atgaaatatt tacataaagg ctcacaaagc caagagcggt tagatgtgct
+    11521 tttgtcgttt ggtaaaagca ccagtgaaga tataaaagcg gcgcttagcg attacttagt
+    11581 tcgtggtatt agcaagacca atgcagcaac gcttaatggt gtgcctgggc caaactttac
+    11641 aagagcgctt aagcggcttg aggttgttgc aggtaaggtt gaagaggtta aagagctaga
+    11701 ttggtctagt agacttggtt aattaaaaaa gctaccttgt tatacctatt actatgcatt
+    11761 agaaaaggat tgagcaatgt tagattttat taagtacgtt ttaaatgaat taggtttaga
+    11821 tgagcacgct gagccgacaa gaacatcggt tatgaaatat cactttaggt ccagagatga
+    11881 agagattcac gttaattttg atttaatcat agatgatact tatttggagt taacagaaga
+    11941 agatgaaaag gcatttcgtg aatttagaag caagcagata tttggtgaaa agctagagaa
+    12001 tcttgagtcg agtataaata aggcggttaa attatatatg gcaaaagcag aattaaccaa
+    12061 aggaaaccag cagggctcaa cattcagatt aacaattgat ttgaaactag aagaagttta
+    12121 aacaccaaag cgctagctcc taactagcgc ttttattccc tttagctttc ccgccccaaa
+    12181 acgctctaaa caatcgcatt aatccaagcg tcgaaaccgc aatccctaca atcacaaatt
+    12241 caaagtacca gggcgcgcct ttataaccca tagattgcca acctttatgc atgtaaggtt
+    12301 gcatggccgg tataaaatgg cagatgaaca aacccaaaaa gaatagaatg atcaattcat
+    12361 ccattaaggt tttgtcgcgg ttcttcagca caagcaagtc ataatcagca tcgttttgct
+    12421 cggcttgcat gcagcgcctt gctttggctt caaactgcgc aattttaaag ttgttttcag
+    12481 cacgcgctac gtctgcagcc atttctgccg ctatgcgttt acgctcaaca tagccgccgg
+    12541 ttaaatcggc tattgggtca gtgatgaatg aaaccaatgt tttaaaccat cccattattt
+    12601 gccaccccta attaatttaa taaacgcttt tgggtctttg ctaattgctt ttattagcgt
+    12661 atcgaacccc tctaaaatgt gcggggcagc ataggcggtt accccaatta caccggtttt
+    12721 taagctttca tcaaattgcc gccactcgca aaacatagcg gcaaggtaag ctgcaaatat
+    12781 cgcaatgagt acactcataa aataatgaaa aaacgtaaac tgccgtttgc ttaaatacat
+    12841 ttgtatgcct gcggctaaaa agctcaacat aaataaacgc ccccattgtt taataaattc
+    12901 cataaagtct atccagctca tgcgctttcc ttcgttgttg ggtttaggtc tgaatattca
+    12961 ggctctttaa attcaatatg ctgtgcggcg ggtaggtagt tattaatacc taaaacatct
+    13021 tgctgcagtg gtactacttc gttgttgtag taggcgcggg tgattttatc taaatcacca
+    13081 aagccggggc tgtcgccaga agattgaccg ctaagtgctt cttgcgcacg gtgcatactg
+    13141 agcatgtcgt taagcgtaat ttttttaata cgttcaaatt cgtctttagt tgatatgtcg
+    13201 ccaacgggcg ttatctttat cgacttttca gcatcggcct tattactgcg gaaattaaaa
+    13261 aacaaacttc taaaattacc cacgcctttg ctatcgcgta tggcattctt tagtgctgtt
+    13321 tcatcggcat cacttaagtt cgggtcggcc attgagaata taaaacccat gtgcgcgccg
+    13381 ttcttgtaat agcggcgtct aaataaagtg gcatcttcgt tgagtaaggc tgattgaata
+    13441 cccccgtaat actgcggtat gccgtaaata ccttgcgctg ggtcgtactc ttttacgtga
+    13501 ataacttcac ctgcattaaa gtaaataggc tcatggctgc gattacttat ttgtgcatat
+    13561 acgccgcgcg tatcggtata acgcatagtc agtgcaggca aatggcgcag cttaatgacc
+    13621 tgcccaaatg agtttttaat aatctgcaaa taggcgttac cactccacag caaatcaaag
+    13681 gcaaacttac taagcgcttg atggcttaac agtgggttag gtttatacca ttttaaaatc
+    13741 atgttgcgct taaagtagag aatgggcccg tgctgggcat taacgcgcag cagctttacc
+    13801 aaaccttgta aacttattgg cggtgcataa atgccgttgc tatcactaaa taccccaatg
+    13861 taatcggtta gccggttatc taaacacggc tcaggatcgc caaagctaaa cgaatcggta
+    13921 accgctgttc gttggttata gttaggcgca tggccgttac ttacttgtaa tcgtggtttc
+    13981 attaagctgc aattcctaca gaggtttggc ggctgtgggc attgccgtcc agtggttcaa
+    14041 atttcatagc gtgcataatt gcccacgcaa tatcggcgtg acctgtggtc gcggtgcggt
+    14101 ttgtggcata ggtaatttgg tcgccaacca ctttacggcg aatatttata aacgagctgg
+    14161 caatatttac tgcgtcctgg tcaaactcaa aacggcggtt tttaattacg ttaatcgcct
+    14221 taataaccag ttggttttta ataatggggt tgtaatgtat tggctcggcg ttagggtaaa
+    14281 atttagtgat catctcccat acaccataac caatgccggt ggtatcaaca ccaatgtgtt
+    14341 gcacgttgta tttttcggtg agtagcttta tctcgctggc catggcttca aagtcattac
+    14401 cgcttaaatc gactgcttca agtaagcgga acttttcgcc aggcttcatc ggagcactta
+    14461 acacagcaac gcttgcttta tcgccaaagc gggcggggtc aaagccaatt accacaggct
+    14521 ttaatgcaaa cggacgttcg cactctaaat caaaatcatc ccatttagtg gagtcgccaa
+    14581 cacaggccat aatttgttta aggttaaatg cactgtgggc atcatcaata aacttacaca
+    14641 taaacaagtt attaaactca tccgtgctgt attcgttttc aagtacttca atatcaatac
+    14701 ggtcaaagcc acttttaacc acatcgtgca ctgtgagcat ttgccgccaa ataccatcgt
+    14761 cacataacag gccatgcttt aagtttttat ggctaacatc aatggcaaat tcagggtcgt
+    14821 tacaggcttt ggtttttctg taccatttac cgttccaatg gtcgtacgct tcatgactgg
+    14881 taacacttgg cgtactaaag taggtaatac gcaaatgctt atgcgttgcc atggcctgtg
+    14941 ccaaaccgcg cagcgtttta tagtttggta tccaaaacac ttcatctata tataagtcgc
+    15001 cgctttccga ctgagccgtg cgcgcattgg tacttttaaa tatcagctta accgttttac
+    15061 cgccggctaa attaaggacc atcggtgagc cggttaattc aatattaaaa tgctcacggc
+    15121 acagtgccac aatattagct ttaaatactt cggcttggtc acggcttgcc gatataaata
+    15181 ttttattacg gccatttacc acagcatcgt aaaacgcttc aaacgcaaaa tagaatgtgg
+    15241 caccaatttg acgaggtttt aaaataaagc gactgcggta gtcttggttt tcaaaccaat
+    15301 gtttttggtg tgggtaaagt agcttgtctt taagctcgtt gagcatatca acggtaatgc
+    15361 cagagcaatc gtttttcttt ttcttcttcg gctttttatt gctaccgcct ccattattgt
+    15421 tccccgcatc atcattactg gcacgttgtt taggggcagg agcaagcttg cttttattaa
+    15481 gggcgcataa ttggcgggtg caaaaatcta actctttgta gtcggcatcg gttttattgt
+    15541 ctttatcggc cagcacatta atgcgtttgc taaacgccat ttcagcatta tagcttgggc
+    15601 acatatcctc ccacttacca gcctcagccc aacggcgaac actacgcgca cttggcatat
+    15661 cttcaagctc ggcaatttca tccaccgtat agccctcaac aacatacaag tcttgtgctt
+    15721 ttttgcgtat ttctggtccg tagttcgcct tcataatgca ccgcgttaat taatccatag
+    15781 cggcagtgta ttagtaataa agcgcgtaat ctgtttgtta aaaacctgtc atttcctaaa
+    15841 agctaaatat aggaatttca aaaagttaaa ccgttggaaa ggattaaaaa gagggtgcaa
+    15901 actgcaatta ctttaaagca aaacgcttaa ctaaaaaaca tttttaaaag gtttgtttat
+    15961 gccaggtcaa ctacgtacaa aaccactttc tattgccgcc gttggcatga ccgttgacgg
+    16021 ccgcgaaatt acagagcaag acgtagccga cattgtagaa acctacaacc cgcgtaaata
+    16081 tggcgcccgc ataaaccttg atcatgaatt taactggtca gggtgggccg ctaaaaacct
+    16141 acacaatgtt gatatacccg gcatgttggg cgatgtagaa agcgttgaag cctacgaaaa
+    16201 cgaagagggc gttgtatgtt tatacgctgt acttgcccca aaccaaagct ttgtacagct
+    16261 caataaagca gaccaagccg tatatttcag tatcgaaata agccgtgatt tcatgggctc
+    16321 tggcaaaacc tacctaaccg gcttagcagt gaccgactac ccagcaagtt gctataccga
+    16381 ccgcattcat ttcagtagta agagcaaagc agacgacacg gaagtcgcct tattaaccgt
+    16441 tgatttaggg tcatgtgagc caatcgacac acctaaaaaa ccctttttta aacgactatt
+    16501 cgcaaaggaa gaatccgaca tgaacgaaac gcaattagcc aatgcattaa aagatgcact
+    16561 cggcacaccg cttagcgagt ttggccaaaa gcttgacggc ctaacagcaa agcttgattc
+    16621 attctcaacc accaacgtgg aagccgaaga cgaaacaacc ccgccagccg aagaatcagc
+    16681 ggagcttaca aagcttaaag aagagctatc aagcacaaaa acagcactgg acgaactaaa
+    16741 cgacaagttt gccaaagcat taaaagcacc tgcgggtgat accaccgacg ccgacgatga
+    16801 gcccgaaggc gacgaaggca aatacagcca gttgctgtaa ttgcattcac tctaacttaa
+    16861 cttagcaaaa cgcaggaaag aacatgaaga ccaaaactaa acagttattt gtagcagtac
+    16921 ttgcaggcat ggcaagcaac tacggtgttg cttcaatgag tgagcaattt aacgtagaac
+    16981 caacaactga acagcgctta tacgatgcaa cgtatgagtc agctgaattt ttacagatga
+    17041 tcaacacagc gctggtagac gacattgttg gccagtcagt gatcatgagt gtagacggcg
+    17101 gcgtgacagg tcgagcaggc gttgaaactg acgacaccaa agagcgtaaa actcgcgatg
+    17161 tatcaaagct cgctaagcgc gaataccgtt gctacccggt tgagtgtgac attcacatca
+    17221 catggaacaa aatggaccaa tggtcaaagt ttcctgattt tcatcagcgt taccgtaacc
+    17281 atgtgcgcca agcaattgca ctcgacatta ttaaaattgg ctttaatggc acatcagcgg
+    17341 ccgacacaac cgacattaca acaaacacca tgctgcaaga cgtaaacatt ggttggttac
+    17401 aactgttacg ccgcgatgcg ccagagcgtg taattaccga aggtgctgta actgacgaaa
+    17461 ttcgcattgg tgccggtggc gattacgaaa acctagacca agcggtgcac gatgcattgc
+    17521 aaggtattcc agttcataag cgtgtaaaca tggtggccat cattggcgac gagctgttag
+    17581 cgaatgacaa aaacaagcta tacgccaaac aagcacacac gccaagtgaa aaaaccaaaa
+    17641 ttgagttaca acaggtgatt gacacttacg gcggcctagc tagctataaa attccgttct
+    17701 ttccagagcg cggcatttta attaccagct ttgaaaacct aagccactac gtgcaagcag
+    17761 ggtcaacccg cacccacgta gaagacaacg ccaaaaagaa acgtgttgaa gactacctat
+    17821 cacgcaacga ttgctactac gtcgaagacc ttgaaaaagc aatgtacttt gagtcagcaa
+    17881 atatcaagct accaaatgcg gcaggtgatg cctgggtata agtagctcgt aaaattccca
+    17941 attagccgac ctgtttgctc cagtttctga gtcggctttt tttaaccaaa ttaaagagtg
+    18001 tttttaaatg agcttagtca aaaaatcatt agccaaagca gttagcagtg taccaagtag
+    18061 cactgaaaag caagcgccaa cggcagcggc aacagccact caagccaacg cgccagcaaa
+    18121 caacaccgag caaaacgagt acctgttttt tgcagcggcc atcgagtcag acttagctca
+    18181 actaaaaaca tttacagata ttagcgacaa agccagctac aagtcagaag ccctgcagcg
+    18241 caatgactac ctaggctaca ttaaccgtta ccgcctaagc ggacaaaacc accacaacaa
+    18301 agtattggca tgggtgttta tttggctagt tgatttaaaa cgctgggatg cagtgttaga
+    18361 gctattgcca ttactcattg agcaaaagca accactgcca accgtgttta ataccaagca
+    18421 ttggcctgcg ttcgttatcg accagctcta cgatgatgca aattactacc taacagaatc
+    18481 aaagcagcaa ggcctgtatg acattggctt tacgctgcat cgcttaatta atgcagttaa
+    18541 aaaccaagat tgggcagggc ttgaggtcgt aggcggcaag ctttacgcca tagccgcaaa
+    18601 agtaaacaaa gcacagctca acttaggcaa cgccctttac tttgccgaaa tggcccaagc
+    18661 cattaacgac aaagcaggcg ttaaaaccat gctcaaagaa ttgcaaaaaa tgattaaacc
+    18721 agcggagcca gaaaagcaaa ccgctgacta gctccaacgc cggcgggcaa cttagcacag
+    18781 cgttagtatt atgtgtttaa cgagtgtgac taagtggcgc ccgcacccaa ttaaatgtgt
+    18841 gtttttacag gtgcaatatg aacttaagcg gcatgccaca agcagattta caaagcatcg
+    18901 atgttgatgt gccaggtaat ggctattacc cagcactgag caccgcgtat tttattgagc
+    18961 actacgcaat agcccaagag tacgcaagta aaagtgatct gttagttgaa aaactaaaac
+    19021 gcgcacaggg tgaaattaac caagaactag ccagcgcagt gctcaccaat ggcgagccat
+    19081 taaacgcaca gcaaataatt ttttataacg atgcagtgta tagcaaagcc aaagctaatt
+    19141 tactggtatc aaaactaggc agtacacacc gcgatagcgc aacagcacag agccaaacgg
+    19201 ccattgataa ttatgaacat tggaaaggcc aaagcctaaa cgccatgcga ctgctgcaat
+    19261 cgcttagccc taacttatcg gttgagctgt tatgagccaa agcaaaatag caatgcttaa
+    19321 acagcattta gccagcgctg aataccaagg ccgtaattta gcgctaagca ctcagttcga
+    19381 cagctggata gaaggtggtc gcatagagcc aagtagcaaa acggtcaatg gtaatggctt
+    19441 attagctgcg cgtttttatt actcaggggt tattagcata aacccttgtg cagcaccggc
+    19501 agcattgatc tgtgcgtttg catcgttttg gttgcaaaac aatgggggtc gttttgatag
+    19561 cactgacatt gaatttagcg ccgacgtaaa cgacgacaac agcaacgaag tagaactgac
+    19621 aatggaacag ctttgtgaag acatagagct agtacaaaca gccaacggcc cgtttgaatt
+    19681 aaacggcaac cgttacgact ttggcgagca aagcctatgg atagctgaag cgttcacact
+    19741 gcatggcgaa gtaagtgctt aacgtcaaat ttgacgaagg gcgcagcaaa gagcaattag
+    19801 cgtttttaaa gcttaagccg cgtaagcgcc gcaacatatt acgcggtgca atacgcgcag
+    19861 caaacagaag cagtaaagag cggatcacca ggcaaagtga tttaacgggc aaaacatggc
+    19921 aaggcagagc aaacggtaaa aaaaagaaaa tgctcaccaa gctaaagcgc aacatgaaag
+    19981 tacgctacgg cgcaaatagc gcaggggtat atttcaaagg tggcaacagc gggaaaatag
+    20041 cccgtgccca ccaagaaggt gtaagcctag atgcaggcaa gccaaaaggc aaagccgcac
+    20101 aaaataaaga gggcccagcc acacgcaact tagcccgcgc attaatagcc gagggctaca
+    20161 aaataccgcg tggcaaaggc aagggcagca aacgcccaag cattaaatgg attacagcaa
+    20221 acttaagcat taaccaagca gggtttttac tgcgcgaatt aaagggcagc tcaggtaaga
+    20281 gcagttggaa aattgattta ccggcccgct cctttttagg acaaacatta gccgagcaaa
+    20341 aagagcaaat gaattttatt ttaaacaaag ctatgcaagt ggcgtagcgc aaagcaaaaa
+    20401 ggaacgacca tggcacaagg taaagtatcc gttgccgcca tacaaacagg cagtggcgct
+    20461 acaaaacagg tagaacgcac cgtgttgttt attggccaag cagccaaaag caacggcagc
+    20521 attctagcca ttaatgcaca aagtgatttt gatgagttat ttggcgatgc cgactcagca
+    20581 ctaaaaacac aagttaaagc atggcaacgc aacggcgatg atttagttag cggatacgct
+    20641 atcccgcatg gcgcgggtga tgacgtaatg gcgcttattg atcaggcaat ggaccaagac
+    20701 gttagccccg aaattattgt tatttgtaca cccgtaacag gcaaagcaga aatcgaaagc
+    20761 tatcaagcca aagcgcttga gattttatca agccttgcgc gccgtgttcg ttttttactg
+    20821 gccgcgccag gtttaacggc tgagcaaaac tggacagatt tagtgacagc attacaacca
+    20881 ttaaccgatg gtgtcgtggg tgaccgagtg gccgtggtgc cattactgtt tggtgacgaa
+    20941 ctaggcgctg taacaggtcg cttatgtaaa agcgcagtca ccattgctga cagcccaatg
+    21001 cgcgtactga ctggtgcaat gtcgctcatg ccattgcctg aagatgcagc aggcaacccg
+    21061 ctaaccaatg caacaaccga agcacttgat gcgctgcgct ttagctgtac gcagttttat
+    21121 cctgactttg atggcgttta ttttggcgac gtaaacatgc tagacgccga aggtggtgac
+    21181 tttcagcaga ttgaaacagg acgcattgta gataaagcag cgcgagctgt gcgcattatt
+    21241 gcaattcagc aaattaaaaa ccgccgctta aataacagca ccagtggtat tgagtttggc
+    21301 aagcgtgtga tgggtaaacc actgcgcgat atgagcaagt ctatcaacat tggtgctgat
+    21361 aagttcccgg gtcttattga tgcgccaaaa gatgacagca tcagccttac atttatggac
+    21421 gcgcgcacat tacaggttgt gcttaaagta aaaccaattg attccccgag caccattatt
+    21481 gttgggatca tgttagacga cgcagaatag gagcgcgaac atgcaaaaag tattaggcgg
+    21541 taaggatttt gacatcttca ttggtagttc aatggtgcat gtcatggaag ccacagtaaa
+    21601 aattaccgac ggccgcacgg taaaaaaagt gcgcggtata ccaaaaggtt ttattgatgg
+    21661 cgatgtagaa gcagaagtaa cgctaaagct cgatcacgaa aactggttaa ttgtgcaagc
+    21721 gcaagctgaa aaagcaggca gctggaaagg tattgaaccg ttcgatgtgg catttaatgc
+    21781 tgaagtggcc gcaggcaaaa agaacgtaga agcatttggt tgtttgccac agctagacga
+    21841 aattttaaac atcaaagcgg atggcggtga agaagacacc acatcaatta agtgtccagt
+    21901 taccagccct gattttgtaa aaatcaatgg cgtgccttac ctaacagcag atgaagtgag
+    21961 agacttgtaa tgactaaagc cattcgcaac ttaaatgcag caacactatt aagcaccatg
+    22021 caagcgtgtg ggcataaagt atttgagggt gaactaaacc taaacatcat aggtattcgc
+    22081 catgcaaaca cacgcgtcaa tacgtttaac gatgcaattt gtgtgctgta tcagcaaaat
+    22141 ggcgaatggc agttaaagca gtttaaagcc acaacagacg caggcacata ctggcgcaaa
+    22201 aacccaatga acatagacgg caccgctgtg ctaattgcag ggcagcatag aagtttatgg
+    22261 gcgctgggtt atcaccaggg caaataccgc gcccttgtac aacataaacc ggttgttgtc
+    22321 ctacgtgaca ataaccaaaa caccgagtta gacacggacg tcacacccca agcagtactg
+    22381 cagcaaggtt actttggcat taactgccac cgcgcaaaca gcaaggtcac atcaatgcaa
+    22441 gttgataaat ggtctgccgg ttgccaggtg tttgcaaacc caaatgactt tgatgaattt
+    22501 attgctttgt gtgagcaatc agcagccaag tatggccctt attttaccta cacactgcta
+    22561 gaccaagcag acataaaaga gagtgaataa tcatggcgtt tgagaaaaaa atcacattag
+    22621 aaacacccgt tggcgacatt acatttaacg taaatgccgc agactacaac aaatacatta
+    22681 acgcgacgca gccaaataac aaagtacagc cagccactaa ctttgtatta aacacagtgg
+    22741 ttgaaagtga tgctaaaaaa gttcaagaac tggtgaagca gccgggcgca gcattgtttt
+    22801 tagtaggcgc gattgttgaa gaataccagc cagagtttaa ttttaccgta aaaaaatcga
+    22861 aggccgagcc aagcaaatag gcaaaaacag actcgatcag ttactggcat accacgctaa
+    22921 atacttcagc aacatgccag taaccaacga aagcttggca caggcgcttt accttgaaac
+    22981 atcacagcaa gaaaactttg taaccgccgt aaataacggc atttgcacag cattaggcgg
+    23041 cgagtaattt aatggcaaca ctcagcaagt tagataagtt gacttattca atcggcatca
+    23101 tcgacaaggt gacagggccg gttaataaag tcatggctaa aattaatcag ctgagccagc
+    23161 aaacagccgc cgcgcaagac caaatgatgc gtggcgcaac caccgccgtt gccggtggtt
+    23221 atgcactggc taaatcacta gcccccgcca ttgatcacgt tgccgctttg ggcgaagtgc
+    23281 aatcactcgg cgttgccgac gacgcattac aaaaactcac taaaacatca tacgaatttg
+    23341 gctttcagtt cggtggtaac tcagctgagt ttgtccgcag tgcatacgat attcaatcag
+    23401 ccattgccgg actaacgggc gatgagttat cagaatttac taaaacatca aacatactag
+    23461 cggtagcaac caaagccgac gcagccacta ttaccagcta catgggcacc atgtatggca
+    23521 tattcgaaaa aacagccaac aaaatgggca aatctaattg ggtaaaccaa atagcaggcc
+    23581 aaacagcaac cgcagtacag ctttacaaaa ccaccggtgc agaaatgcaa gcggcgtttt
+    23641 caaaccttgg cgcaaccgca acaaacatcg ggttaagctc agcccaacaa tttgccctag
+    23701 tgggcgagtt acagttagtt gctaagtcgg ggtcggttgc gggcacgcag gccgcatcgt
+    23761 tattacaagg tattggcaag gcacaagaaa cgctaggcat agaattaaca gctgataatg
+    23821 gcgacatgct cgcaatagac gtagtgctag ggcgtattaa taaccgtcta tcatcgttgg
+    23881 gttctgttgc gcgcggcgac gtgctaacgc aaatatttgg taaacaaggt gcaaaagcgg
+    23941 tcgacgtact aagcactaaa gtcgacaaat taaaagacgg cattgccgtt tttgaaggcg
+    24001 tgcaagacaa ctcaaaagcg gccgaaatgg caaacatcat tgccagccca tgggataggc
+    24061 tgggcggctc attcaatgcc gccgctacag caatgggtaa ccgcttatta cccgtggtag
+    24121 agccgttcgt tgaaatgctc gccgcaggct ttgcttatat agtttcatta accgagcaat
+    24181 tccctgtttt atccagcaca atagcaaccg ttgtggttgg cgtggtgggt ttagtaaccg
+    24241 tatttggttt agtaaatttt tcaatgggtt tacttaaatt ttcagggtta acgcttacct
+    24301 cagtttttgg tgggcttaca tcagttacag ggctttatac aaaagccaac aaagcgctag
+    24361 ccggatcatt ggctacatca accaaagcaa cacacagcgc atcattagcg agcaagcttt
+    24421 ttgctggcgt tacagcgaga gccacgttag cacaaagtag attccacacc acagcagcgt
+    24481 ttacaggtgg ctatttacca gcactgggtg cttatgccaa aggtgcggct gtcagcgtgg
+    24541 gtaagtttgc tatgggccta tttaacgtca ctcgcatcat ggggttttta aatgccgtaa
+    24601 tgttggccaa cccattaggc gtgatcatcg gtttagtggt tttactcgcc gcattaatct
+    24661 ataaattttg gcaacccatc aaagccttta tgagtggttt ttgggatggc tttgtacaca
+    24721 gttttgcacc agtcattgat gcatttagcg agctgggtgc agcattttcg cctattatta
+    24781 acgcagttaa aagcgtgttt aattggtttg tatcgttgtt tacaccggtt gaacaatcaa
+    24841 gccaggcgct agccggggta gcatcagcag gtgaagtttt cggtttagtg tttggtgccg
+    24901 cattaaactt aatactgttc ccgatcaaag cggttatttg gtttataact aagcttgtta
+    24961 acgtcatcac ttgggtagcg agcgctatta acggtatgtg gaatgcggtt aaatctccgt
+    25021 taggcagctt tttcgacttc atcaaaacca tatttggatt tacaccaatg ggcatgatga
+    25081 tgaaaggcta tggcaaagcg ttcgactggt taagtgaaaa ggtaggtggt ttaaaaggta
+    25141 ttgccgattc aataaaagac ttctttaatt ttggtgatga tgaaacagaa ataaaagcaa
+    25201 caaaagtaac gcaagccgca caaccaaaaa caatggttat gcaaaacgcc gatcaagctt
+    25261 acagccgtga ctacggccaa gcagtaatta acaaagcagc taagttacca gccaatacag
+    25321 ttgccgcaaa cgatgccact tatttaccaa gtacagctag taacgcattg acagtacaac
+    25381 ccaaagtaat gactgagcgt gaagccgcaa acgatgcctt taaatttact agccagcgct
+    25441 tacctgcagt gccgacagat actgcagcac cgttaaattt agagtcgcag gcacgtagcc
+    25501 aaacgttaat aaaccgcgcg ttcccaagcg agcaaaacag ggcagtaact aacagcgcag
+    25561 ccagcactgc aattaatgac gctgtaaata acacgcaggc attaacagag gtaaatagca
+    25621 gtgtaactaa cgctacgcaa agcaacttag cgccagcggc cataactgcc caaccaaaag
+    25681 taatgactga gcgtgaagcc gcaaacgatg cctttaaatt tactagccag cgcttacctg
+    25741 cagtgccgac agatactgca gcaccgttaa atttagagtc gcaagcacgt agccaaacgt
+    25801 taataaaccg cgcgttccca agcgagcaaa acagggcagt aactaacagc gcagccagca
+    25861 ctgcaattaa tgacgctgta aataacacgc aggcattaac agaggtaaat agcagtgtaa
+    25921 ctaacgctac gcaaagcaac ttagcgccag cggccataac tgcccaacca aaagcaatga
+    25981 ccgagcgtga agcagcaaac gatgcgttta aatttactag tcagcgcctg cccgctgtgc
+    26041 caaccgacaa cacagtacca ctaaatttag agtcgcaagc acgtagccaa acgttaataa
+    26101 atagcgcatt cccaagcgtt aaaaataacg cagtaaccac agctgctaac gaaggcgcaa
+    26161 actcaactag cgcaacaacg gccaacatca atagcagtgc tattaactca gcattacaaa
+    26221 acagcacagc caacaatttt actaatgcgg ctaattcgcc tttaccgccg ttgccaacga
+    26281 ataaaacaga tcaggcaatt accaacacgg caaacaacag cgcatataaa gttgaccaac
+    26341 taagcactga gcaacaacag caaagcaata gttataaagc caaggtgcaa aagtctgcgt
+    26401 ttttacaaaa cctaaccagc aatacaaata acagcagcag ttctagcgac agcgataacc
+    26461 gtaagagcgt gcatattgaa accgtgaact ttaaatctga cgacttagcg caaagctttg
+    26521 aacaaatgat ggagttagcc ggctaatgga atttgatata gcgatgcata tagatttaga
+    26581 aatacaagat aacgactttg tactaaacga ctcgttaagc ccaagcacat taaaaaaggc
+    26641 tggtgttatc gcgcaggata ttaagcaccg aattttagaa agcggcctat taactaagct
+    26701 tgttggcctg cgcaataaaa acggtatagc acccatttta actgagcttg aattactcac
+    26761 agagcaagac aatcgcatta agccaggcac tataaaagtg tatcgcaatg acgacggtac
+    26821 attaagcatc accgcgcaaa cgcgccaata cggaggccta caaagtggac tttaaaaccc
+    26881 taatgcaaaa cgctggcttg ccaatggacg agcaaacggc acaagcgcag tggcaaacac
+    26941 aactaaaaga acaaaacata caagttgcca acaactcacc gtttggtccg ttctggcgaa
+    27001 ccgttgaagc gttgatcaca aagcccgttg tgcagctatt taattggata gcccagcaat
+    27061 taatgccaga cttatttatt atgaccgcta gccgcactgc gttaattgaa cgccacggcc
+    27121 ccgcgcgtaa tgtatttatt caagcaggcg taaaagcaca aggcatactc acgttcaccc
+    27181 gtatcaatac tgaaggtgaa agcgctattt ttgctggtac gcaggtcatt actgatgtac
+    27241 tcggcgataa aacgtacacg ctcacattgt tgcaagatgt ttatttcagc gacgggcaag
+    27301 gcactgcata tgcactggcc gaggcacaaa acaccggtgc cgcatttaac ttacccgccc
+    27361 atgcttaccg ctactttcca gaacagcaag gcgggatcac cgtaaccaac aatgaggatt
+    27421 ggttaattaa ggcaggttcc gatgatgaaa gcaccgagca ttaccgcctg cgtattcgca
+    27481 atgtattcgg caccgctgcg cgctggcata ttaacgccgt gtacaaacaa attattgcca
+    27541 gctttgccgt accaatcgac aacatagaaa tagaaacaaa cgccccccgg ggtccaggca
+    27601 ctgccaatgc atacatctat ttagatgttg gccctgtacc aacagctttg ctgagcgtga
+    27661 ttaatcagca cattcgcacc gcaggccatc atggtttagg tgacgacttt atggtttacg
+    27721 ccatggcaac cacgggcttt gatattaccg caacgtataa attgcaccca caaagcagca
+    27781 gtattaagag cgatttaacc acgtttatac aagccgcttt tcgtcaaaat gcagcgtatg
+    27841 cacctacacg cgtagcgcat caaacagtat tcagcattag ccaattgata gcagaatgcc
+    27901 acgagcaatt tagcgagctt aaatcaatta aatttgatat tgacgacata accgccgcga
+    27961 actggctgcc ggtacttaca tcattaaccg ttaatgaggt ggcaaatggc taatgaaatc
+    28021 gccacttggt taaataaagg ctacgccgaa aaactggtaa aagcagcaac tggctattgg
+    28081 gatcaatcac gcgactacgt tatgtgggct gttaaccaaa aagatgaatc taaaaacgaa
+    28141 gagccagttt taggtttttt ggcgtgggag cgcctaacta ctcgtttaga tgacgagccg
+    28201 atagagctct atcgtaagcg cgtgcagcat gcactggtaa ataccattgg tgccggcgaa
+    28261 attgcctcag ttaaaagtat ttttgaccgc ttagggttgg aggttcttaa cgtgcgcgaa
+    28321 aggctcgacg ggcgtgactg ggacattatt gctattgaca tgaccgattc aacactcgca
+    28381 ggcaatgctg atttactacc agagctcata cagctttatg gccgcacttg tcgccgttat
+    28441 gaattaaccg tgcataacaa agcggatgca tcgctaagct tggggttaac gcacgtgcaa
+    28501 tgggatagct gccacattga tcactcactg catttggccg cacaaaataa agcagcacag
+    28561 caatacagcc atggttttac taacctgcaa aacgaaagta gtcacgcgcc actgcatgca
+    28621 attacgcaca acgtaaaaca cacactgccc actgagttgt tatatcaatt tttagggttt
+    28681 gataacgtag tgagcaacac cgcacatcaa gcaatgacca ccgatgtaca gcatgttgtt
+    28741 gcggcgcatc accgctatgg atttttaagt aaagagggcg gtataagcat cgccaaggag
+    28801 acactatgag cgaagccatc accggcatta tgaccaacgc cggaagaggt tacataacca
+    28861 cccgagcact tgaaaacaaa gggcttgatg taaaagagtt ggtgtttgca aaaataccaa
+    28921 acctgaatga gcaggaagag cgcaatccaa acgagccaat gcctagcgat ttgcaaatcg
+    28981 tacaccgccg aaatattgat gtgtctggct atgttgacga aaacaccgtt gcatgggccg
+    29041 tggtgctaga gcaagaaatc ggcgactttg actacaactg gataggccta gtaacgcaaa
+    29101 acggcacttt attagccgtt gactacctgc cgcttcagcg caaacgccaa ggtgtaaata
+    29161 acgtacacaa ccgatcgttt gttcttaagt ttgcagcagc ggcggcgctg gctcgaatca
+    29221 caatccctgc gcaatcatgg atgtttgatt acagcccgca aatagatgcg ctaaacgcac
+    29281 tatcactaac cacagcaacc gcgcaggtaa acaacatgta ccgcacgttg cgtaactatt
+    29341 tcttaatgtc agaatttaca gtatttacta aggaactatg atgagcattg aacaaatcaa
+    29401 cgaaatcgta accgcggcag accgtgtggt tgcagcggta gaaaataaag cagccgagat
+    29461 agactcaaaa acagccgcgc tagacagcga ctacaacagt aaaaaagcag cccttgatca
+    29521 gcaagttgcc gaaaactcgg cgcaactggc aatcgttgca tcagacggct accgaaaagc
+    29581 aatcgaagat gcatcaggtg gccgcaatac ggtagtaatt gacgagcaag gcaatccaaa
+    29641 tgtcatggtg cgcatcccgc ggtttaacta cgaagacatc aaccaagcaa ttctagaccg
+    29701 tttgggagtt gacttaatgc ttggcacggg tacgccaact atgttccagc gcaatggcga
+    29761 gcaaatgggt gaggtgctca ttgcaaaata tctagcatca tcaggcgcca atggtggctg
+    29821 tagcgtaatt ggtggtgtac aaccacgtac atcagttaac tacgatgtag caaaagcgct
+    29881 gtgtaacaat aaaggtgcag gatggcacat gatgagcatt cacgaatggg ccgcaatcgc
+    29941 actgtggtcg ctagctaatg acaccgtacc acgcggcaat acaaactacg gccgcagcca
+    30001 cgaaaaaaaa ttagaaacag cccgtcgtgg cgataatggc atcccaggcg atacgtcagg
+    30061 gcttgcaaga accgacaccg gtaaaggccc tgcaacatgg tcgcacgacc acgcagaatg
+    30121 gggcattcaa gacctggtcg gtaacgtgtg ggagtggcta gaccaaatga tgctaagtga
+    30181 aggtcaggta attactacgc tagataacaa cccagaaatc gtagaggaaa actggatcaa
+    30241 gcattcagct tattttgact caccagtcgc aaacacagaa ggcaccggca gcgctggatc
+    30301 tccagtgctt aacagcgcaa ttacaaaccg taatgggcca gtaggcgaag atagtaacga
+    30361 caatccgtat ttaacaaatg gccattttgc agctattaca aaatcagaaa cgtatcaaaa
+    30421 agtcgagatt ttacgccgct tgcttattga atctgagtca accacaacag tgcccggtgc
+    30481 aatctactgc cgaaattatg gcaatcgatt cccgcgacgt ggcggcggct ggagcgttgg
+    30541 ctcgggcgct ggcttgggcg cgctcagcct cagcggtggc cgttcgtatg cggacggtac
+    30601 gatcggtttt cgtcccgctt tctttgcgta attgattatt gaaatttgaa ccccgggcga
+    30661 tagcccggga ataacataaa aggagattaa tttggccgcg ctagcaatag aagaaaaatg
+    30721 cagagatatg ttgatgtacg ggtatcaagc tataaagcag ttcccaaaac atgaaaagca
+    30781 tgtgctagca gcagagatac gcaagtctat gcttcagttg cagcgattaa tagttactgc
+    30841 atttaagcgc taccataaaa aaacaacatt gacagagtta gatattgagc tcgcaatatt
+    30901 aaagcgacaa gttcgcttgg ctaaagacct acgctatata gatacaaaaa agtatcaatt
+    30961 atggatagag cgcttggtag agattggcaa aatgctcggc ggttggatta aatcagtaaa
+    31021 gaacaaacag gcagttgcat tatgaatgca cggaatcgat tcccgctacg tggcggcaac
+    31081 tggaacaatg gctcgaacgc tggcttgggc gcgctcaacc tcaacaatgg ccgttcgaat
+    31141 gcgaacagta atatcggttt tcgtcccgct cttgaatatg ccagaagcaa tatccccaag
+    31201 ggggtttgcc agtgcgactt tgaaaaggat gcagcttcct cagcaattgc tgaaaaagaa
+    31261 ataaagccag ttgatgcgtc gattggctgt acttatgaaa agatatatca gtttgaaaat
+    31321 atattaaatg ctgcatacca gtgcagaaaa ggaaaagcca cgtcagcatc ggcgcttgcg
+    31381 ttctttaata accttgaaga aaacatagtg caaatacaaa acgagctaat gtgggaaatg
+    31441 tacagtgtat taccgtatag acatttttat gtttttgagc caaagcgccg gttaatttca
+    31501 gcgccgcatt ttaaggaccg cgttatacat cgggcaattt acaatgtaat cgagccgctg
+    31561 ttcgacaaac aatacatcta tgactcttac gcatgtagaa aaggcaaggg agcgcacgtc
+    31621 ggagccgaca gggctcaaca ctttattaag caagtagaaa gcgaaagtgg caaagcctat
+    31681 gcgctaaaag cagacataag caagtatttt tcaagtattg atcatcaaat attaaaaagc
+    31741 attttaggcg caaagttaaa atgccaaaga acaagaaacc tgctttttta cattattgat
+    31801 aacagcccaa acgacgcagc tggggtgggc attcctctcg gtaatttaac gagtcagata
+    31861 tttgcaaata tctatctgca cgaactagat cactttgcaa agcacacatt aaaagcaagg
+    31921 cggtacattc gttacatgga tgactttaca attattcacc atgacaaaag ggcgctgcat
+    31981 gaatacagag aaaaaataga ggggttttta tataaaaacc tacggctaaa aacaaacagc
+    32041 aaaacgcagg tgttcccaat agcaaaaacg cgcggccgct cgctagactt tttagggtac
+    32101 agaatatttg caaaccacag actgctaaga aaaagcagtg taaaaagaat aagcacaaag
+    32161 ctaaaaaagt ttagaaaaga gttttcacaa ggcaaagtga cactagccga aataaaccaa
+    32221 tgcgtgcaat cgtggttggg ccatgcaagc catgccaaca cgcacagcat aaagctaaag
+    32281 ttatttaaca ctccatttaa aaggtaaaac tatgtttaca tatatctaca aaggcgcaag
+    32341 ccatagtaat acaagcgctg agtacatgca aaacctaggc atggaccagg aacaaattga
+    32401 cgcagtatta aatcagcagc agtttgagct aagccaaaat attgaaaagc gtcaagccgc
+    32461 ttacaaagcc gagtcagacc ctttgtatat ggaagcgcaa tgcgacggca cacctgagtc
+    32521 actgcaaacg tggcaagaca aagtagccga aatcaaagcg cgctatccac tgcctgacaa
+    32581 tgcataacct agcgctttgt tctcatcaaa ctgccgtccc ttgctcaatg caagtgggcg
+    32641 cgcagttgct tgcgtctgcc attaaagacg actcgcgcac cgacaaacca acaagctatg
+    32701 gcggtttatt gttatcggtg agtgcaaccg atcccgcaac actggccagt aagttggaat
+    32761 caataaacga atactgccca acccctgagt ttatcgcctg cgcccagtat gccaatagtc
+    32821 aaagcacctt agagcaaacc aagctagata cctatgacgg ccaaagcata gagtggcaaa
+    32881 taaacaccct gcaaaattta ttgcctttac gcgagcagct aatagcggaa gagctcgcca
+    32941 cagtaaataa cagtggtcag caattaatca ccaccattga cgatgcacta acccaaacag
+    33001 cggagctaaa aacagcccgc gacgagcggc taaatcaagc gcaattcact gctcaaagta
+    33061 gcggggtaga tgtgcaatta attacagctg gcacagcaaa gcagctagcc gactcagtgg
+    33121 ctaacaaagg caatgatcat agctactggg cactgtgttt atttgttggc gagcagggcg
+    33181 aacttaatca aattaaagag gtgttatgag cttagcaatt gatggctgga acataccggg
+    33241 gtttgaaacc cgtgttgatg catcggtaaa actcgccggt ggtgacatgt cggggtttgg
+    33301 tagctttgca cttagtagtg accaaggtgt taagccaggt ttaataactg taaaaacaaa
+    33361 aatacccatg ctagatgaaa gcgagctagc agcccttatc gccaaatcaa aagcattaga
+    33421 cgaaaacggc gcccgtgttg tttacaccat taccaatgca ctggccgagg catataaaat
+    33481 tcgtaaagca aaatttgacg gtgaagtaaa agccaccgag cttgaagaaa aacgcgcgtg
+    33541 gcaagtaaca tttaaactcg ttgaggttca atcagtctca gagcgcgaac aacagcagct
+    33601 agacgaacaa gccagcacta acgccgagcc acaagcaaca actagtaacg acgatgtgca
+    33661 aaacaaattc aacgaggtcg aagggccatg agcacccgcc tatctaacac cttaaaaatt
+    33721 gcaggccagt cggttactaa catagtagct aaaaccgtac agcttgatat tgccagcacc
+    33781 ggtcgtgcaa agtttgaagt agtggcagag caagagccaa gcggcttggt tgaactacac
+    33841 ctaggttaca cgttagataa tatgatcccg tattttctcg gcgtcataga atcaaaacat
+    33901 caagccaacg gccgctggta tttaacctgc cgcgaactaa taggcgcgtt aagttttccc
+    33961 gcaccgttgg cggttcgtca cgcaacaatt aaagcggtgc ttgatgaact agcaaaactc
+    34021 ggagttgagt ttgcaacccc tgaaaacgca gaatatttaa atcaaattat acccgcattt
+    34081 tatcacagcg gcacaggcat tgaagcgctt agacaaatag gcaaagtgtg gagtattaac
+    34141 gattttatat ttcagcagcg cccagatggc aaaatatttg tcggcagttg gcacgactcc
+    34201 cgttggccgc tcgcagctat caatgatttt ccagagcaca caataaccgc taaaagctca
+    34261 accactggcg agctaatcgc cattccaaaa ttaagaccag gcataaaact aaatggccga
+    34321 cacattaccg aagtaacact aatcaacgac aggatgcaca tacgatggtc aaacaagcca
+    34381 ttaaacgcct aatacagcgc tattttccag agctaaacga gcgaaaacac ctgccgcaac
+    34441 ttgcatgtat agaaaaaata tacgacctgc caagtagcgc cgcagcaatc agcaccgtat
+    34501 ttaggccgct aaaagccgcc gacgtacagc ttttaaaccc actaacaggc gagccattag
+    34561 ccgtacccgt atttcagcaa gtaacactcg ggacaggcca agcatccgac cacggattat
+    34621 taaacgaacc aacaccaggc atgcattgtt taatacaata tatcgacggc ctaaatagcc
+    34681 atcccgtgat caccaactta ttgccatggc aaagcctagt gcccgaacac aagcgcacag
+    34741 atgtaacact gcagcaaagt agccgcagca atatacaagg ccgcgacggc aactggcaca
+    34801 ccacaaccga cggccaaata gcacagacca gcgataccac aaaaagaaaa tcgcgcaact
+    34861 gtttagaaaa tcaccatgaa cgcaatacca atatagccac gcacgacacg ctaaaaatag
+    34921 acggcaacca aatcacagaa gtgatgggcg cattaaaaac agtagtaggt gaaaaagcct
+    34981 taatagtcgc tttagaaggg ctattgcttg gcagtaaaaa acaggtagac attgaagccg
+    35041 ccgaaaacat gaacctaacc acactcaaaa ccctacacgc caaagccacc gaactggcaa
+    35101 aggtagaagg cacaacagtg tggcttggaa ataattcggt aaacgtagca caagtactcc
+    35161 ttgatttaat aagcttggtt aaagatataa accaaagcct agaaaaccac ggccacacaa
+    35221 gcgcgggtgc aggcgcacca ataacgaaga gcgaatttgc cgcccacaaa tcagcagcca
+    35281 gcagcttaaa aagcacatta gagtcagtgg tggaatagtg aaattccatt cagttgcgcg
+    35341 attttaaaag taggttaggc tatctgcaaa taacagaaaa ggtaatttgt attatgatgg
+    35401 aaaagctaga tcgaatcgca gaactaaaca cagagatgca agcaatttta actttgttaa
+    35461 ccgatggcga aagttatatc agattaaata aaaaacattt agactcgatg ctacatagcc
+    35521 ttttaaataa taccgaaact ataaatagag agctgttgga ttaagtatta aacttatcat
+    35581 gtaatttatg cgggaatagc tgcgtataaa cttgccacaa aatatttaaa ttacggtggc
+    35641 ctgtaacttg ggccacttct tctattgaat aacctttttc gaataaacgg ctagcacctt
+    35701 cgcgacgtaa atcatgatag cgtaaatcct caatacctaa tgcattacgt acccgctgaa
+    35761 aaccagcagt aaccgatcgt gagttgtaag gaaatattaa atcatcactt ttaggttgtt
+    35821 gcatcacaat atcaaacgaa ccagctagca aaggtacaat catgtgattg ccttcttttt
+    35881 tacgcgggtc ttttctatca cgcactaaaa tagttttgtg atcttcgttt aaatcttccc
+    35941 agcgtagttt gcaaacttca ccaatgcgca tgcaggttaa aatgctaaaa tccaaaatat
+    36001 ctaaaaaggg aatccgcact ttaccgttcc gcctatagtc catacgttcc tttaagcctt
+    36061 cacgcaattt atctaattca ttatcggtag ggcggcgtgt tcgcttttgg cttttgccaa
+    36121 ctaaccccat ttcgattagc accggtactg cgtcttcaaa tattttatgg ttagcatcaa
+    36181 tattccatac tggcccagcc tttttcataa cactgcgcaa atatgcaata tcatgataaa
+    36241 tagtcgcagg ccctgcacca gcgctacgcc tatttttaca atgttcaatt aaatcactag
+    36301 tgcgtaactc atttgataaa accgatgcta tgtcgcaatc aatcagcatc ttaataacaa
+    36361 attgtttagt acggcctgta gcattccata aatcatggtt ttcataatac atattcatca
+    36421 gggtgcctag ggtgaccact tgctttgttt cagtcaccct cgattgctca atatcgttaa
+    36481 cttgtttctt gccccagctc tcagccaaca ctcttttact gaatgtttta ctttcattgt
+    36541 gtataatctt acccttagat ttctcgcgta ctacgcactt gtagcggtag tcgcctgaag
+    36601 caagacggcg tttttcgata ttatatgaag ccatgattta accctaagtt attgttcagt
+    36661 ccaaccccgc aagggtgact atagggtgac tgtatatcga aactcgcggc gattcaaggc
+    36721 aattcaaggc aattcagact atatgagtaa cacactaaat aagggctata gcccagtaat
+    36781 ggcaagtaac gcagggttta gacggtttag cgtggcacct atgct
+//
